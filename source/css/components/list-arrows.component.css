@@ -1,0 +1,11 @@
+.list-arrows li {
+    line-height: 18px;
+}
+.list-arrows li + li {
+    margin-top: 25px;
+}
+.list-arrows li i{
+    font-size: 18px;
+    color: #8bc34a;
+    margin-right: 16px;
+}
