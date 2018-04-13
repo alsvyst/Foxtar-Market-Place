@@ -25,6 +25,9 @@ header .bottom-header .header-nav a{
     font-weight: 500;
     font-size: 14px;
 }
+header .bottom-header .header-nav a:hover {
+    color: #8bc34a;
+}
 header .bottom-header .header-nav a + a {
     margin-left: 40px;
 }

@@ -1,0 +1,22 @@
+.search-section {
+    background: url('../img/banner-image.jpg') no-repeat center / cover;
+    text-align: center;
+    padding: 60px 0;
+}
+.search-section h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.search-section .search-form {
+    width: 670px;
+    height: 56px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.75);
+    padding: 22px 20px 20px 25px;
+    font-weight: 500;
+    color: #90a4ae;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+}
