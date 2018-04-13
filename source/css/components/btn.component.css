@@ -58,6 +58,5 @@
     border: solid 1px #42a5f5; 
 }
 .btn.btn-shadow {
-    -webkit-box-shadow: 1px 1px 3px rgba(204, 216, 228, .75);
-            box-shadow: 1px 1px 3px rgba(204, 216, 228, .75);
+    box-shadow: 1px 1px 3px rgba(204, 216, 228, .75);
 }
