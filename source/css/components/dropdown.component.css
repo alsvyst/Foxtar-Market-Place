@@ -30,8 +30,7 @@ margin-top: 20px;
 .dropdown-menu {
     position: absolute;
     transform: translate3d(16px, 34px, 0px);
-    top: 28px;
-    left: -250px;
+    margin-top: 28px;
     will-change: transform;
     z-index: 1000;
     min-width: 160px;
@@ -186,6 +185,10 @@ margin-top: 20px;
 .dropdown-list-range.number {
     color: #90a4ae;
 }
+.dropdown-menu-range {
+    margin-top: 0;
+}
+
 li {list-style-type: none;
 }
 .dropdown-toggle::after {
