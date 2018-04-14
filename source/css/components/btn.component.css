@@ -92,13 +92,12 @@
 /*Work background for file with buttons
 */
 .bg-buttons-green-html {
-    margin-top: 20px;
     background-color: #8bc34a;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 .bg-buttons-light-html {
-    margin-top: 20px;
     background-color: #eeeeee;
     padding: 30px;
 }
