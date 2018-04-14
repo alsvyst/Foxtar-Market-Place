@@ -31,11 +31,10 @@ margin-top: 20px;
     position: absolute;
     -webkit-transform: translate3d(16px, 34px, 0px);
             transform: translate3d(16px, 34px, 0px);
-    top: 28px;
-    left: -250px;
+    margin-top: 28px;
     will-change: transform;
     z-index: 1000;
-    min-width: 158px;
+    min-width: 160px;
     color: #212529;
     background-color: #fff;
     background-clip: padding-box;
@@ -168,7 +167,7 @@ margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
 }
-.dropdown-profile .categories {
+.dropdown-profile .range {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -177,8 +176,21 @@ margin-top: 20px;
 .dropdown-toggle-profile .toggle-range {
     padding: 20px 30px;
     background-color: #fff;
-    border: solid ;
+    border: .83px solid #cccccc;
 }
+.dropdown-list-range {
+    color: #263238;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.dropdown-list-range.number {
+    color: #90a4ae;
+}
+.dropdown-menu-range {
+    margin-top: 0;
+}
+
 li {list-style-type: none;
 }
 .dropdown-toggle::after {
