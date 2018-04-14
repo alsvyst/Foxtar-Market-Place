@@ -80,7 +80,15 @@
     color: #42a5f5;
     border: solid 1px #42a5f5;
 }
+.btn.btn-darcblue {
+    background-color: #546e7a;
+}
 
+.btn.btn-darcblue:hover {
+    background-color: #fff;
+    color: #546e7a;
+    border: solid 1px #546e7a;
+}
 .btn.btn-darckgreen {
     background-color: #76ae36;
 }
