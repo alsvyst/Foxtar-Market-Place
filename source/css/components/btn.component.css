@@ -25,13 +25,11 @@
 }
 
 .btn.btn-shadow {
-    -webkit-box-shadow: 2px 2px 2px rgba(204, 216, 228, .75);
-            box-shadow: 2px 2px 2px rgba(204, 216, 228, .75);
+    box-shadow: 2px 2px 2px rgba(204, 216, 228, .75);
 }
 
 .btn.btn-darkgreen-shadow {
-    -webkit-box-shadow: 2px 2px 2px rgba(118, 174, 54, .75);
-            box-shadow: 2px 2px 2px rgba(118, 174, 54, .75);
+    box-shadow: 2px 2px 2px rgba(118, 174, 54, .75);
 }
 
 .btn.btn-red {
@@ -82,7 +80,15 @@
     color: #42a5f5;
     border: solid 1px #42a5f5;
 }
+.btn.btn-darcblue {
+    background-color: #546e7a;
+}
 
+.btn.btn-darcblue:hover {
+    background-color: #fff;
+    color: #546e7a;
+    border: solid 1px #546e7a;
+}
 .btn.btn-darckgreen {
     background-color: #76ae36;
 }
@@ -90,7 +96,14 @@
 .btn.btn-darckgreen:hover {
     background-color: #95c85a;
 }
-
+.btn-outline {
+    background-color: rgba(255, 255, 255, .0);
+    border: solid 2px #fff;
+}
+.btn-outline:hover {
+    background-color: rgba(255, 255, 255, .1);
+    border: solid 2px #fff;
+}
 /*Work background for file with buttons
 */
 .bg-buttons-green-html {
