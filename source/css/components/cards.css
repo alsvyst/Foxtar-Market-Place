@@ -1,0 +1,83 @@
+.card.large-card {
+    border-radius: 0;
+    border-color: #d9e0e3;
+}
+.card.medium-card {
+    border: none;
+    margin-top: 27px;
+}
+.card .card-img img{
+    width: 100%;
+}
+.card.large-card:hover {
+    box-shadow: 8px 8px 20px rgba(216, 216, 216, .75);
+}
+.card.large-card .card-info {
+    border-bottom: 1px solid #d9e0e3;
+    padding: 25px 30px 15px;
+}
+.card.medium-card .card-info {
+    padding: 20px 0;
+}
+.card.large-card .card-author {
+    padding: 20px 30px;
+}
+.card.medium-card .card-author {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d9e0e3;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.card-author .rating-count {
+    margin-left: 10px;
+}
+.card-product-rating .list-inline-item i {
+    color: #ffa726;
+    margin-left: 1px;
+    font-size: 12px;
+}
+.card-item-title {
+    color: #263238;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.card.large-card .card-info .card-price {
+    color: #263238;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card.medium-card .card-info .card-price {
+    color: #263238;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-item-category {
+    color: #8bc34a;
+    font-weight: 500;
+    font-size: 14px;
+}
+.card-author .author-name {
+    color: #546e7a;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-left: 0;
+}
+.card-author .round-img {
+    width: 30px;
+    height: 30px;
+}
+.rating-count {
+    color: #263238;
+}
+.rating-count:before {
+    content: '(';
+    color: #b0bec5;
+}
+.rating-count:after {
+    content: ')';
+    color: #b0bec5;
+}
+
