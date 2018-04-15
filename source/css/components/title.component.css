@@ -1,0 +1,25 @@
+/* --- Title start --- */
+.section-title {
+    font-weight: 700;
+	font-size: 36px;
+    margin-bottom: 60px;
+    color: #263238;
+}
+.block-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #263238;
+}
+.text-title {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 32px;
+    color: #263238;
+}
+.title-md {
+    font-weight: 700;
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 25px;
+}
+/* --- Title end --- */
