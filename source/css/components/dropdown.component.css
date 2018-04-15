@@ -53,8 +53,8 @@
 }
 
 .round-img {
-    width: 48px;
-    height: 48px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -141,7 +141,7 @@
 
 .header-dropdown-list.dropdown-profile {
     min-width: 160px;
-    padding: 20px;
+    margin-left: 20px;
 }
 
 .dropdown-profile .username {

@@ -45,6 +45,9 @@ button {
     background-color: transparent;
     padding: 0;
 }
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
 textarea {
     resize: vertical;
 }
@@ -58,6 +61,11 @@ input:focus::-webkit-input-placeholder {color: transparent}
 input:focus::-moz-placeholder          {color: transparent}
 input:focus:-moz-placeholder           {color: transparent}
 input:focus:-ms-input-placeholder      {color: transparent}
+
+textarea:focus::-webkit-input-placeholder {color: transparent}
+textarea:focus::-moz-placeholder          {color: transparent}
+textarea:focus:-moz-placeholder           {color: transparent}
+textarea:focus:-ms-input-placeholder      {color: transparent}
 
 blockquote {
     margin: 0;

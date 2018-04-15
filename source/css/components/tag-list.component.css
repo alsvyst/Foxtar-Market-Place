@@ -1,7 +1,5 @@
 .tag-list {
     margin-bottom: 59px;
-    /*Для того чтобы видны были*/
-    background-color: #f4f6f5;
 }
 .tag-list a {
     display: inline-block;
