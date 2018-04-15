@@ -45,7 +45,11 @@
                     </div>
                 </li>
             </ul>
-            <button>Logout</button>
+            <div class="header-buttons">
+                <button data-toggle="modal" data-target="#loginModal">Login</button>
+                <button>Register</button>
+            </div>
+            <!-- /.header-buttons -->
         </div>
         <!-- /.container -->
     </div>
@@ -75,14 +79,36 @@
 <!-- Main start -->
 <main id="main">
     <section class="search-section">
-        <div class="search-section-content">
+        <div class="container-fluid">
             <span>Premium WordPress Themes, Web Templates and Many More ...</span>
             <form>
                 <input type="search" name="search" class="search-form" placeholder="Search Your Keywords . . .">
+                <!--<img src="img/icon-search.png" alt="">-->
             </form>
         </div>
     </section>
     <!-- /.search-section -->
+    <section class="wrapper-example">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content-wrapper-title">
+                    <h6>Upload Your item</h6>
+                </div>
+                <!-- /.content-wrapper-title -->
+                <div class="content-wrapper-body">
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurbut a vfrrdyrtfglso survived
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releas survived not  raseth
+                    leap into electronic typesetting, remaining essentially unchanged. when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centurbut a vfrrdyrtfglso survived  but also the leap into electronic typesetting, remaining essentially unchanged. It was po
+                    pularised in the 1960s with the releas survived not  rasethleap into electronic typesetting, remaining essentially unchanged.
+                </div>
+                <!-- /.content-wrapper-body -->
+            </div>
+            <!-- /.content-wrapper-bordered -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.wrapper-example -->
 </main>
 <!-- Main end -->
 
@@ -169,6 +195,46 @@
     </div>
 </footer>
 <!-- Footer end -->
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <!-- /.close -->
+                <h4 class="login-title text-center">Login</h4>
+                <form name="login-form">
+                    <div class="login-form-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="nickName" class="login-form-control" placeholder="Name">
+                    </div>
+                    <!-- /.login-form-group -->
+                    <div class="login-form-group">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="password" class="login-form-control" placeholder="Password">
+                    </div>
+                    <!-- /.login-form-group -->
+                    <div class="login-btn-group">
+                        <button type="submit" class="btn btn-white">Submit</button>
+                        <a href="#" class="btn btn-green">
+                            <i class="fa fa-pencil-square-o"></i> Creat An Account?
+                        </a>
+                    </div>
+                    <!-- /.login-btn-group -->
+                    <a href="#" class="lost-password">Lost Password?</a>
+                </form>
+                <!-- /.login-form -->
+            </div>
+            <!-- /.modal-body -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Login Modal end -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
