@@ -27,3 +27,13 @@
 .aside-list .number {
     color: #90a4ae;
 }
+.aside-section-item {
+    padding: 20px;
+    border: solid 1px #d7d7d7;
+}
+.list-arrows .aside-section-item {
+    margin: 0;
+}
+.aside-section-item:hover {
+    border-bottom: solid 2px #8bc34a;
+}

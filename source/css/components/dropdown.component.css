@@ -33,7 +33,7 @@
 .dropdown-menu {
     position: absolute;
     transform: translate3d(16px, 34px, 0px);
-    top: 100%;
+    top: 30px !important;
     will-change: transform;
     z-index: 1000;
     min-width: 160px;
@@ -42,14 +42,14 @@
     background-clip: padding-box;
     border: 1px solid #cccccc;
     border-radius: 0;
-    box-shadow: 8px 8px 20px rgba(216, 216, 216, .75);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, .15);
     padding: 0;
 }
 
 .dropdown-item {
     min-width: 270px;
     padding: 20px;
-    border: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .round-img {
@@ -124,7 +124,7 @@
     right: -6px;
     color: #fff;
     font-size: 11px;
-    line-height: 18px;
+    line-height: 19px;
 }
 
 .dropdown .count.note {
@@ -203,7 +203,7 @@
 .dropdown-toggle-profile .toggle-range {
     padding: 20px 30px;
     background-color: #fff;
-    border: .83px solid #cccccc;
+    border: 1px solid #cccccc;
 }
 
 .dropdown-list-range {
