@@ -1,0 +1,51 @@
+/* Main start */
+
+.search-section.search-section-index {
+    padding: 156px 0 175px;
+}
+.search-section.search-section-index span {
+    margin-bottom: 54px;
+}
+.newest-prodcuts .all-newest-products .row + .row {
+    margin-top: 32px;
+    margin-bottom: 78px;
+}
+.newest-prodcuts .all-newest-products-buttons a + a {
+    margin-left: 12px;
+}
+.trending-carousel {
+    margin: 0 -7px;
+}
+.trending-carousel .slick-slide {
+    padding: 0 7px;
+}
+.why-choose-foxtar .block-title {
+    margin: 33px 0 26px;
+}
+.become-author .become-author-wrapper {
+    padding: 115px 0 107px;
+    max-width: 1100px;
+}
+.become-author .become-author-block {
+    padding: 71px 0 86px;
+    max-width: 650px;
+    margin: auto;
+    width: 100%;
+}
+.become-author .become-author-title {
+    margin-right: 50px;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 270px;
+}
+.become-author .become-author-button a {
+    padding: 25px 43px 24px;
+    font-size: 18px;
+}
+.free-tutorial-item {
+    padding-bottom: 42px;
+}
+.free-tutorials .free-tutorial-image {
+    margin-bottom: 39px;
+}
+/* Main end */

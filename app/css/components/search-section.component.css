@@ -2,7 +2,13 @@
 .search-section {
     background: url('../img/banner-image.jpg') no-repeat center / cover;
     text-align: center;
-    padding: 60px 0;
+    padding: 60px 0 68px;
+}
+.search-section h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 34px;
 }
 .search-section span {
     color: #fff;
