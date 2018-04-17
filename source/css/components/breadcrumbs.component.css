@@ -1,7 +1,7 @@
 /*  --- Breadcrumbs start --- */
 .breadcrumb {
     padding: 0;
-    margin: 48px 0 39px;
+    margin-bottom: 39px;
     background-color: transparent;
 }
 .breadcrumb-item {
