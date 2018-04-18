@@ -22,7 +22,7 @@
     color: #263238;
 }
 
-.header-dropdown-list .dropdown-toggle {
+.header-dropdown-list li {
     margin-left: 16px;
 }
 
@@ -163,7 +163,6 @@
 .dropdown-profile i {
     font-size: 14px;
     color: #a0a0a0;
-    line-height: 30px;
 }
 
 .dropdown-toggle-profile {
@@ -179,10 +178,12 @@
     min-width: 160px;
 }
 
-.dropdown-item-profile {
-    margin-bottom: 20px;
+.dropdown-menu .dropdown-item-profile {
+    margin-bottom: 28px;
 }
-
+.dropdown-menu :last-child {
+    margin-bottom: 0px;
+}
 .dropdown-item-profile i {
     color: #8bc34a;
     font-size: 12px;
