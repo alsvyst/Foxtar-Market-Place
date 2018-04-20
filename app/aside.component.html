@@ -15,202 +15,224 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Foxtar-Aside</title>
+
+    <!-- Formstayler style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
+
+    <!-- Slick-nav -->
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <!-- Slick style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+    <!-- jQuery UI Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <!-- Reset -->
     <link rel="stylesheet" type="text/css" href="css/pages/reset.css">
+
+    <!-- Custom style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Foxtar-Aside</title>
 </head>
+
 <body>
-    <!-- Aside -->
-    <div class="container">
-        <div class="row">
-            <div class="col col-3">
-                <aside class="aside-section">
-                    <div class="aside-title"><span>Categories</span></div>
-                    <ul class="aside-list">
-                        <li  class="d-flex justify-content-between">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            <a href="#"><span>WordPress</span></a>
-                            <span class="number ml-auto">(150)</span>
-                        </li>
-                        <li class="d-flex justify-content-between">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            <a href="#"><span >Joomla</span></a>
-                            <span class="number ml-auto">(150)</span>
-                        </li>
-                        <li class="d-flex justify-content-between">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            <a href="#"><span>PSD</span></a>
-                            <span class="number ml-auto">(150)</span>
-                        </li>
-                        <li class="d-flex justify-content-between">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            <a href="#"><span>Plugins</span></a>
-                            <span class="number ml-auto">(150)</span>
-                        </li>
-                        <li class="d-flex justify-content-between">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            <a href="#"><span>Components</span></a>
-                            <span class="number ml-auto">(150)</span>
-                        </li>
-                    </ul>
-                    <!--/aside-list-->
-                </aside>
-                <!--/aside-categories-->
-                <aside class="aside-section">
-                    <div class="aside-title"><span >Price Range</span></div>
-                    <div class="aside-list">
+<!-- Aside -->
+<div class="container">
+    <div class="row">
+        <div class="col col-3">
+            <aside class="aside-section">
+                <div class="aside-title"><span>Categories</span></div>
+                <ul class="aside-list">
+                    <li class="d-flex justify-content-between">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <a href="#"><span>WordPress</span></a>
+                        <span class="number ml-auto">(150)</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <a href="#"><span>Joomla</span></a>
+                        <span class="number ml-auto">(150)</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <a href="#"><span>PSD</span></a>
+                        <span class="number ml-auto">(150)</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <a href="#"><span>Plugins</span></a>
+                        <span class="number ml-auto">(150)</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <a href="#"><span>Components</span></a>
+                        <span class="number ml-auto">(150)</span>
+                    </li>
+                </ul>
+                <!--/aside-list-->
+            </aside>
+            <!--/aside-categories-->
+            <aside class="aside-section">
+                <div class="aside-title"><span>Price Range</span></div>
+                <div id="slider-range" class="price range">
+
+                </div>
+                <!--/slider-range price range-->
+                <button class="btn btn-default btn-green col col-12"><i class="fa fa-search"></i>Search</button>
+            </aside>
+            <!--/aside-Price Range-->
+            <aside class="aside-section">
+                <div class="aside-title"><span>Top 10 Sellers</span></div>
+                <!--.card .Medium-card-->
+                <div class="card medium-card">
+                    <div class="card-img">
+                        <a href="#">
+                            <img src="img/card-item-big.jpg" alt="">
+                        </a>
                     </div>
-                    <button class="btn btn-default btn-green col col-12"><i class="fa fa-search"></i>Search</button>
-                </aside>
-                <!--/aside-Price Range-->
-                <aside class="aside-section">
-                    <div class="aside-title"><span >Top 10 Sellers</span></div>
-                    <!--.card .Medium-card-->
-                    <div class="card medium-card">
-                        <div class="card-img">
-                            <a href="#">
-                                <img src="img/card-item-big.jpg" alt="">
-                            </a>
+                    <!-- /.card-img -->
+                    <div class="card-description">
+                        <div class="card-info d-flex align-items-center">
+                            <div class="d-flex flex-column">
+                                <a href="#" class="card-item-title">The Post Grid Pro</a>
+                                <a href="#" class="card-item-category">WordPress Plugin</a>
+                            </div>
+                            <span class="card-price ml-auto">$40</span>
                         </div>
-                        <!-- /.card-img -->
-                        <div class="card-description">
-                            <div class="card-info d-flex align-items-center">
-                                <div class="d-flex flex-column">
-                                    <a href="#" class="card-item-title">The Post Grid Pro</a>
-                                    <a href="#" class="card-item-category">WordPress Plugin</a>
+                        <!-- /.card-info -->
+                        <div class="card-author d-flex align-items-center">
+                            <a href="#" class="card-author-img d-flex align-items-center justify-content-between">
+                                <div class="round-img">
+                                    <img src="img/test-picture.jpg" alt="">
                                 </div>
-                                <span class="card-price ml-auto">$40</span>
-                            </div>
-                            <!-- /.card-info -->
-                            <div class="card-author d-flex align-items-center">
-                                <a href="#" class="card-author-img d-flex align-items-center justify-content-between">
-                                    <div class="round-img">
-                                        <img src="img/test-picture.jpg" alt="">
-                                    </div>
-                                    <span class="author-name">PsdBosS</span>
-                                </a>
-                                <ul class="card-product-rating list-inline ml-auto">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <!-- /.card-author -->
-                        </div>
-                        <!-- /.card-description -->
-                    </div>
-                    <!-- / card medium-card -->
-                    <!--.card .Medium-card-->
-                    <div class="card medium-card">
-                        <div class="card-img">
-                            <a href="#">
-                                <img src="img/card-item-big.jpg" alt="">
+                                <span class="author-name">PsdBosS</span>
                             </a>
+                            <ul class="card-product-rating list-inline ml-auto">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
                         </div>
-                        <!-- /.card-img -->
-                        <div class="card-description">
-                            <div class="card-info d-flex align-items-center">
-                                <div class="d-flex flex-column">
-                                    <a href="#" class="card-item-title">The Post Grid Pro</a>
-                                    <a href="#" class="card-item-category">WordPress Plugin</a>
-                                </div>
-                                <span class="card-price ml-auto">$40</span>
-                            </div>
-                            <!-- /.card-info -->
-                            <div class="card-author d-flex align-items-center">
-                                <a href="#" class="card-author-img d-flex align-items-center justify-content-between">
-                                    <div class="round-img">
-                                        <img src="img/test-picture.jpg" alt="">
-                                    </div>
-                                    <span class="author-name">PsdBosS</span>
-                                </a>
-                                <ul class="card-product-rating list-inline ml-auto">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <!-- /.card-author -->
-                        </div>
-                        <!-- /.card-description -->
+                        <!-- /.card-author -->
                     </div>
-                    <!-- / card medium-card -->
-                    <!--.card .Medium-card-->
-                    <div class="card medium-card">
-                        <div class="card-img">
-                            <a href="#">
-                                <img src="img/card-item-big.jpg" alt="">
+                    <!-- /.card-description -->
+                </div>
+                <!-- / card medium-card -->
+                <!--.card .Medium-card-->
+                <div class="card medium-card">
+                    <div class="card-img">
+                        <a href="#">
+                            <img src="img/card-item-big.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- /.card-img -->
+                    <div class="card-description">
+                        <div class="card-info d-flex align-items-center">
+                            <div class="d-flex flex-column">
+                                <a href="#" class="card-item-title">The Post Grid Pro</a>
+                                <a href="#" class="card-item-category">WordPress Plugin</a>
+                            </div>
+                            <span class="card-price ml-auto">$40</span>
+                        </div>
+                        <!-- /.card-info -->
+                        <div class="card-author d-flex align-items-center">
+                            <a href="#" class="card-author-img d-flex align-items-center justify-content-between">
+                                <div class="round-img">
+                                    <img src="img/test-picture.jpg" alt="">
+                                </div>
+                                <span class="author-name">PsdBosS</span>
                             </a>
+                            <ul class="card-product-rating list-inline ml-auto">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
                         </div>
-                        <!-- /.card-img -->
-                        <div class="card-description">
-                            <div class="card-info d-flex align-items-center">
-                                <div class="d-flex flex-column">
-                                    <a href="#" class="card-item-title">The Post Grid Pro</a>
-                                    <a href="#" class="card-item-category">WordPress Plugin</a>
-                                </div>
-                                <span class="card-price ml-auto">$40</span>
-                            </div>
-                            <!-- /.card-info -->
-                            <div class="card-author d-flex align-items-center">
-                                <a href="#" class="card-author-img d-flex align-items-center justify-content-between">
-                                    <div class="round-img">
-                                        <img src="img/test-picture.jpg" alt="">
-                                    </div>
-                                    <span class="author-name">PsdBosS</span>
-                                </a>
-                                <ul class="card-product-rating list-inline ml-auto">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <!-- /.card-author -->
-                        </div>
-                        <!-- /.card-description -->
+                        <!-- /.card-author -->
                     </div>
-                    <!-- / card medium-card -->
-                    <button class="btn btn-default btn-green col col-12">View All</button>
-                </aside>
-                <!--/aside-Top-->
-            </div>
-            <!-- / col -->
+                    <!-- /.card-description -->
+                </div>
+                <!-- / card medium-card -->
+                <!--.card .Medium-card-->
+                <div class="card medium-card">
+                    <div class="card-img">
+                        <a href="#">
+                            <img src="img/card-item-big.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- /.card-img -->
+                    <div class="card-description">
+                        <div class="card-info d-flex align-items-center">
+                            <div class="d-flex flex-column">
+                                <a href="#" class="card-item-title">The Post Grid Pro</a>
+                                <a href="#" class="card-item-category">WordPress Plugin</a>
+                            </div>
+                            <span class="card-price ml-auto">$40</span>
+                        </div>
+                        <!-- /.card-info -->
+                        <div class="card-author d-flex align-items-center">
+                            <a href="#" class="card-author-img d-flex align-items-center justify-content-between">
+                                <div class="round-img">
+                                    <img src="img/test-picture.jpg" alt="">
+                                </div>
+                                <span class="author-name">PsdBosS</span>
+                            </a>
+                            <ul class="card-product-rating list-inline ml-auto">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <!-- /.card-author -->
+                    </div>
+                    <!-- /.card-description -->
+                </div>
+                <!-- / card medium-card -->
+                <button class="btn btn-default btn-green col col-12">View All</button>
+            </aside>
+            <!--/aside-Top-->
         </div>
-        <!-- / row-->
+        <!-- / col -->
     </div>
-    <!--/container-->
-    <div class="container">
-        <div class="row">
-            <div class="col col-3">
-                <aside>
-                    <ul class="list-arrows">
-                        <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Home</a></li>
-                        <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Forums</a></li>
-                        <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Become an Author</a></li>
-                        <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Community Meetups</a></li>
-                        <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Become an Affiliate</a></li>
-                    </ul>
-                </aside>
-                <!--/aside-->
-                </aside>
-            </div>
-            <!-- / col -->
+    <!-- / row-->
+</div>
+<!--/container-->
+<div class="container">
+    <div class="row">
+        <div class="col col-3">
+            <aside>
+                <ul class="list-arrows">
+                    <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Home</a></li>
+                    <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Forums</a></li>
+                    <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Become an Author</a>
+                    </li>
+                    <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Community Meetups</a>
+                    </li>
+                    <li class="aside-section-item"><i class="fa fa-angle-right"></i><a href="#">Become an Affiliate</a>
+                    </li>
+                </ul>
+            </aside>
+            <!--/aside-->
+            </aside>
         </div>
-        <!-- / row-->
+        <!-- / col -->
     </div>
-    <!--/container-->
+    <!-- / row-->
+</div>
+<!--/container-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -218,5 +240,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/range.js"></script>
+
+<!-- Slick-nav -->
+<script src="js/jquery.slicknav.min.js"></script>
+
+<!-- Init plugins -->
+<script src="js/init.js"></script>
 </body>
 </html>
