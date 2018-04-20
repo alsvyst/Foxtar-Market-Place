@@ -179,9 +179,11 @@
 .dropdown-menu .dropdown-item-profile {
     margin-bottom: 28px;
 }
+
 .dropdown-menu :last-child {
     margin-bottom: 0px;
 }
+
 .dropdown-item-profile i {
     color: #8bc34a;
     font-size: 12px;
@@ -220,4 +222,23 @@
 
 .dropdown-toggle::after {
     display: none;
+}
+
+.dropdown-product-details .toggle-details {
+    font-size: 13px;
+    font-weight: 400;
+    color: #70838d;
+    padding: 6px 10px;
+    line-height: 13px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+}
+
+.dropdown-product-details .toggle-details i {
+    color: #8bc34a;
+    margin-left: 10px;
+}
+
+.dropdown-product-details .dropdown-menu {
+    top: 0 !important;
 }
