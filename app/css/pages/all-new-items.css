@@ -63,3 +63,7 @@
     position: absolute;
     min-width: 254px;
 }
+
+*:focus {
+    outline: none;
+}
