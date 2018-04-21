@@ -1,8 +1,8 @@
+/*Dropdowns*/
 .dropdown {
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
-
 .dropdown-toggle {
     position: relative;
     display: block;
@@ -24,10 +24,6 @@
 
 .header-dropdown-list li {
     margin-left: 16px;
-}
-
-.header-dropdown-list.dropdown-profile .dropdown-toggle {
-    margin-left: 20px;
 }
 
 .dropdown-menu {
@@ -143,6 +139,11 @@
     min-width: 160px;
     margin-left: 20px;
 }
+/*Dropdowns profile*/
+
+.header-dropdown-list.dropdown-profile .dropdown-toggle {
+    margin-left: 20px;
+}
 
 .dropdown-profile .username {
     font-weight: 500;
@@ -163,10 +164,6 @@
     color: #a0a0a0;
 }
 
-.dropdown-toggle-profile {
-    position: relative;
-}
-
 .dropdown-toggle-profile p {
     margin: 0 15px;
 }
@@ -174,6 +171,8 @@
 .dropdown-profile .dropdown-menu {
     padding: 20px;
     min-width: 160px;
+    position: absolute;
+    top: 24px !important;
 }
 
 .dropdown-menu .dropdown-item-profile {
