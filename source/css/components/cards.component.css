@@ -235,3 +235,43 @@
 .card.row-card .comments {
     display: flex;
 }
+/*Small card*/
+.card.small-card {
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.card.small-card .card-img {
+    flex: 1;
+    position: relative;
+}
+
+.card.small-card .card-img img {
+    display: block;
+    height: 100%;
+}
+
+.card.small-card .card-description {
+    flex: 3;
+}
+
+.card.small-card .card-info {
+    padding: 18px 22px 11px;
+
+}
+.card.small-card .card-item-title {
+    padding-bottom: 10px;
+
+}
+.card.small-card .card-item-category {
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.card.small-card .card-price {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+}
