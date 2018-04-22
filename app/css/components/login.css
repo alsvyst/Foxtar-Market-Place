@@ -61,12 +61,22 @@
     padding-left: 41px;
     vertical-align: bottom;
 }
-
 #loginModal .login-btn-group {
     margin-top: 19px;
     margin-bottom: 27px;
 }
-
+#loginModal .login-btn-group button {
+    font-weight: 700;
+    font-size: 14px;
+}
+#loginModal .login-btn-group a {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
 #loginModal .lost-password {
     color: #fff;
     font-size: 18px;

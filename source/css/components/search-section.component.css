@@ -31,7 +31,7 @@
     font-weight: 500;
     letter-spacing: 0.05em;
     font-size: 14px;
-    background: #fff url('../img/icon-search.png') no-repeat 97%  center;
+    /*background: #fff url('../img/icon-search.png') no-repeat 97%  center;*/
     color: #263238;
 }
 .search-section .search-form::-webkit-input-placeholder {color:#90a4ae;}
@@ -46,5 +46,13 @@
 
 .search-section .search-form:focus {
     box-shadow: 0 1px 10px 0 #263238;
+}
+.search-section i {
+    font-size: 22px;
+    color: #78909c;
+    position: absolute;
+    top: 0;
+    line-height: 56px;
+    right: 20px;
 }
 /* search-section end */
