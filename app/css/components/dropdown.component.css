@@ -22,10 +22,9 @@
     color: #263238;
 }
 
-.header-dropdown-list li {
+.header-dropdown-list li+li {
     margin-left: 16px;
 }
-
 .dropdown-menu {
     position: absolute;
     -webkit-transform: translate3d(16px, 34px, 0px);
@@ -135,6 +134,10 @@
 
 .dropdown .count.basket {
     background-color: #95c85a;
+}
+
+.dropdown .count.basket-red {
+    background-color: #e74c3c;
 }
 
 .header-dropdown-list.dropdown-profile {
