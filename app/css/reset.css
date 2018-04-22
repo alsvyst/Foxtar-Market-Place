@@ -76,3 +76,7 @@ blockquote {
     margin: 0;
 }
 /* reset end */
+.icon {
+    display: inline-block;
+    margin-left: -4px;
+}

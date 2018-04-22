@@ -24,14 +24,15 @@ gulp.task('concat-css', function () {
         .pipe(concat('style.css'))
         .pipe(gulp.dest('app/css'))
 });
+
 // Generate sprite
 gulp.task('sprite', function () {
-    let spriteData = gulp.src('source/sprite/*.png'
+    let spriteData = gulp.src('source/sprite/*.png')
         .pipe(spritesmith({
         imgName: 'sprite.png',
         cssName: 'sprite.css',
         imgPath: '../img/sprite.png'
-    })));
+    }));
     let imgStream = spriteData.img
         .pipe(gulp.dest('app/img/'));
     let cssStream = spriteData.css

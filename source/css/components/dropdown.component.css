@@ -28,7 +28,7 @@
 .dropdown-menu {
     position: absolute;
     transform: translate3d(16px, 34px, 0px);
-    top: 30px !important;
+    top: 26px !important;
     will-change: transform;
     z-index: 1000;
     min-width: 160px;
@@ -151,14 +151,12 @@
 .dropdown-profile .username {
     font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
     color: #222222;
+    margin-bottom: 5px;
 }
 
 .dropdown-profile .price {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
     color: #95c85a;
 }
 
@@ -175,7 +173,6 @@
     padding: 20px;
     min-width: 160px;
     position: absolute;
-    top: 24px !important;
 }
 
 .dropdown-menu .dropdown-item-profile {
