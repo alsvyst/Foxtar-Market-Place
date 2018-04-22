@@ -12,14 +12,13 @@
     border-bottom: solid 1px #dedede;
     padding-bottom: 20px;
 }
-.aside-list {
+.aside-list li {
     color: #263238;
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 20px;
 }
 .aside-list i {
     color: #8bc34a;
-    font-size: 14px;
 }
 .aside-list span {
     margin-left: 10px;
@@ -28,8 +27,9 @@
     color: #90a4ae;
 }
 .aside-section-item {
+    height: 50px;
     background-color: #fff;
-    padding: 20px;
+    padding: 15px 22px;
     border: solid 1px #d7d7d7;
 }
 .list-arrows .aside-section-item {
