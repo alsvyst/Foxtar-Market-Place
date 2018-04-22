@@ -3,8 +3,22 @@
     margin-bottom: 0;
 }
 
+.form-group + .form-group {
+    margin-top: 22px;
+}
+
 .col-form-label {
     color: #444;
+    line-height: 1;
+}
+
+.col-form-label.required::after {
+    content: "*";
+    color: #8bc34a;
+    font-size: 21px;
+    position: absolute;
+    margin-left: 5px;
+    top: -1px;
 }
 
 .form-control {
@@ -43,7 +57,7 @@
 }
 
 .jq-selectbox__select:hover {
-    background-color: #f9f9f9;
+    background: #f9f9f9;
 }
 
 .jq-selectbox.focused .jq-selectbox__select {
@@ -66,6 +80,7 @@
     border-radius: 0;
     font-family: 'Roboto';
 }
+
 .jq-selectbox li:hover {
     background-color: #8bc34a;
 }
@@ -75,6 +90,7 @@
     font-size: 9px;
     vertical-align: top;
 }
+
 textarea.form-control {
     min-height: 150px;
     padding-top: 14px;

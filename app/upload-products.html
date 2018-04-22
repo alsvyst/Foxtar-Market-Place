@@ -17,7 +17,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Slick style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+    <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css">
+    
     <title>Foxtar - Upload products</title>
 </head>
 <body>
@@ -274,12 +280,12 @@
                             <span>Upload Your item</span>
                         </div>
                         <!-- /.content-wrapper-title -->
-                        <div class="content-wrapper-body">
+                        <div class="content-wrapper-body pb-0">
                             <form>
                                 <div class="form-group row">
-                                    <label for="selectCountry" class="col-sm-2 col-form-label">Select Categories <i class="fa fa-asterisk"></i></label>
+                                    <label for="selectCategory" class="col-sm-2 col-form-label required">Select Categories</label>
                                     <div class="col-sm-10">
-                                        <select name="selectCountry" id="selectCountry">
+                                        <select name="selectCategory" id="selectCategory">
                                             <option selected>Select</option>
                                             <option value="category 1">Category 1</option>
                                             <option value="category 2">Category 2</option>
@@ -289,35 +295,35 @@
                                 </div>
                                 <!-- / form-group select-->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label">Product Name <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Product Name</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="Enter your product name here ...">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="ProductDescription" class="col-sm-2 col-form-label">Product Description <i class="fa fa-asterisk"></i> </label>
+                                    <label for="ProductDescription" class="col-sm-2 col-form-label required">Product Description</label>
                                     <div class="col-sm-10">
                                         <textarea name="text" class="form-control" id="ProductDescription" placeholder="Type your text  here"></textarea>
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label">Upload Main File <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Upload Main File</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label">Upload Screenshots <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Upload Screenshots</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="selectCountry" class="col-sm-2 col-form-label">File Included <i class="fa fa-asterisk"></i></label>
+                                    <label for="selectCountry" class="col-sm-2 col-form-label required">File Included</label>
                                     <div class="col-sm-10">
                                         <select name="selectCountry" id="selectCountry">
                                             <option selected>Select File Type</option>
@@ -329,14 +335,14 @@
                                 </div>
                                 <!-- / form-group select-->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label">File Dimensions <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputProductName" class="col-sm-2 col-form-label required">File Dimensions</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="Enter the item  dimensions here ...">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label">Item Tags <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Item Tags</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="Enter Tag Here">
                                     </div>
@@ -353,14 +359,14 @@
                         <div class="content-wrapper-body">
                             <form>
                                 <div class="form-group row">
-                                    <label for="inputRegularLicense" class="col-sm-2 col-form-label">Regular License <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputRegularLicense" class="col-sm-2 col-form-label required">Regular License</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputRegularLicense" placeholder="$00.00">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputRegularLicense" class="col-sm-2 col-form-label">Extended License <i class="fa fa-asterisk"></i> </label>
+                                    <label for="inputRegularLicense" class="col-sm-2 col-form-label required">Extended License</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="inputRegularLicense" placeholder="$00.00">
                                     </div>

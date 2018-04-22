@@ -1,11 +1,8 @@
-/* --- Upload Products start --- */
+/* --- Upload Products page start --- */
 .upload-product-wrapp .content-wrapper .content-wrapper-body {
     padding: 43px 48px 70px 45px;
 }
 
-.upload-product-wrapp .form-group + .form-group {
-    margin-top: 24px;
-}
 .upload-product-wrapp .btn-lg.btn-green {
     margin-top: 42px;
 }
@@ -13,4 +10,4 @@
 .upload-product-wrapp .btn.btn-lg {
     padding: 17px 38px;
 }
-/* --- Upload Products end --- */
+/* --- Upload Products page end --- */
