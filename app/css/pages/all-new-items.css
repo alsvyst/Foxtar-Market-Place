@@ -59,9 +59,12 @@
 
 .sort-controls .dropdown-menu {
     top: 19px !important;
-    left: -41px !important;
     position: absolute;
-    min-width: 254px;
+    min-width: 100px;
+}
+
+.sort-controls .dropdown-list-range {
+    padding: 0;
 }
 
 *:focus {
