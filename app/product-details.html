@@ -128,7 +128,6 @@
                                 <i class="fa fa-reply ml-auto" aria-hidden="true"></i>
                             </a>
                         </div>
-                        <!--/dropdown-menu-->
                     </li>
                     <!-- /dropdown-male -->
                     <li class="dropdown show dropdown-basket">
@@ -167,8 +166,7 @@
                                 <a href="#" class="btn btn-default btn-red">Go to Cart</a>
                                 <a href="#" class="btn btn-default btn-green">Go to Checkout</a>
                             </div>
-                        </div>   
-                        <!--/dropdown-menu--> 
+                        </div>
                     </li>
                     <!-- /dropdown-basket -->
                 </ul>
@@ -220,12 +218,11 @@
                             <span class="dropdown-list-profile  ">Withdraws</span>
                         </a>
                     </div>
-                    <!--/dropdown-menu-->
                 </div>
                 <!-- /dropdown-profile -->
     
                 <div class="header-buttons">
-                    <button class="btn btn-default btn-red btn-round">Logout</button>
+                    <button class="btn btn-default btn-red btn-round login">Logout</button>
                 </div>
                 <!-- /.header-buttons -->
             </div>
@@ -260,7 +257,7 @@
                 <span>Premium WordPress Themes, Web Templates and Many More ...</span>
                 <form>
                     <input type="search" name="search" class="search-form" placeholder="Search Your Keywords . . .">
-                    <!--<img src="img/icon-search.png" alt="">-->
+                    <i class="fa fa-search" aria-hidden="true"></i>
                 </form>
             </div>
         </section>
@@ -296,16 +293,16 @@
                                 <a href="#" class="btn btn-default btn-lg btn-green">Documentation</a>
                                 <ul class="socials d-flex ml-auto">
                                     <li>
-                                        <a href="#"><img src="img/icon-facebook.png" alt=""></a>
+                                        <a href="#"><i class="icon icon-fb"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><img src="img/icon-twitter.png" alt=""></a>
+                                        <a href="#"><i class="icon icon-tw"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><img src="img/icon-linkedin.png" alt=""></a>
+                                        <a href="#"><i class="icon icon-linkedin"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><img src="img/icon-pinterest.png" alt=""></a>
+                                        <a href="#"><i class="icon icon-pinterest"></i></a>
                                     </li>
                                 </ul>
                                 <!-- / socials -->
@@ -372,11 +369,44 @@
                                 <div class="aside-title"><span >Product Price</span></div>
                                 <div class="product-price-wrapp d-flex align-items-center justify-content-between">
                                     <span class="product-price">$59.00</span>
-                                    <div class="dropdown-price d-flex align-items-center">
-                                        <span>Regular</span>
-                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <div class="header-dropdown-list dropdown-profile dropdown-product-details d-flex align-items-center justify-content-between">
+                                        <a class="dropdown-toggle-profile d-flex align-items-center justify-content-between" href="#" role="button"
+                                           id="dropdownrange" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <div class="toggle-details">
+                                                <span class="details">Regular</span>
+                                                <i class="fa fa fa-caret-down"></i>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-range" aria-labelledby="dropdownrange">
+                                            <a class="dropdown-item-profile d-flex align-items-center" href="#">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="dropdown-list-range">WordPress </span>
+                                                <span class="dropdown-list-range number ml-auto">(150)</span>
+                                            </a>
+                                            <a class="dropdown-item-profile d-flex align-items-center" href="#">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="dropdown-list-range">Joomla </span>
+                                                <span class="dropdown-list-range number ml-auto">(150)</span>
+                                            </a>
+                                            <a class="dropdown-item-profile d-flex align-items-center" href="#">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="dropdown-list-range">PSD </span>
+                                                <span class="dropdown-list-range number ml-auto">(150)</span>
+                                            </a>
+                                            <a class="dropdown-item-profile d-flex align-items-center" href="#">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="dropdown-list-range">Plugins </span>
+                                                <span class="dropdown-list-range number ml-auto">(150)</span>
+                                            </a>
+                                            <a class="dropdown-item-profile d-flex align-items-center" href="#">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="dropdown-list-range">Components </span>
+                                                <span class="dropdown-list-range number ml-auto">(150)</span>
+                                            </a>
+                                        </div>
+                                        <!--/dropdown-menu-->
                                     </div>
-                                    <!-- / dropdown-price -->
+                                    <!-- /dropdown-product-details -->
                                 </div>
                                 <!-- / product-price-wrapp -->
                                 <button class="btn btn-default btn-lg btn-green btn-shadow col col-12"><i class="fa fa-shopping-cart"></i>Add To Cart</button>
@@ -407,7 +437,7 @@
                     </div>
                     <!-- / row -->
                 </div>
-                <!-- / upload-product-wrapp -->
+                <!-- / product-details-wrapp -->
             </div>
             <!-- / container -->
         </section>
@@ -468,23 +498,38 @@
                     </div>
                     <ul class="socials d-flex">
                         <li>
-                            <a href="#"><img src="img/icon-facebook.png" alt=""></a>
+                            <a href="#"><img src="img/icon-facebook.png" alt="">
+                                <i class="icon icon-fb"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-twitter.png" alt=""></a>
+                            <a href="#"><img src="img/icon-twitter.png" alt="">
+                                <i class="icon icon-tw"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-youtube.png" alt=""></a>
+                            <a href="#"><img src="img/icon-youtube.png" alt="">
+                                <i class="icon icon-youtube"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-pinterest.png" alt=""></a>
+                            <a href="#"><img src="img/icon-pinterest.png" alt="">
+                                <i class="icon icon-pinterest"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-linkedin.png" alt=""></a>
+                            <a href="#"><img src="img/icon-linkedin.png" alt="">
+                                <i class="icon icon-linkedin"></i>
+                            </a>
                         </li>
                     </ul>
                     <form action="" class="subscribe">
                         <span>Newsletter Sign Up!</span>
+                        <div>
+                            <input type="email" name="subscribe" class="subscribe-form" placeholder="E-mail Address">
+                            <button type="submit"><i class="fa fa-location-arrow"></i></button>
+                        </div>
+                    </form>
                     </form>
                 </div>
                 <!-- /.col-3 -->
@@ -499,17 +544,17 @@
     <!-- Footer end -->
        
     
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- JQuery form styler -->
-<script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
-<!-- Slick carousel -->
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JQuery form styler -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+    <!-- Slick carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<!--  Init plugins -->
-<script src="js/init.js"></script>
+    <!--  Init plugins -->
+    <script src="js/init.js"></script>
 </body>
 </html>
