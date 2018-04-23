@@ -48,6 +48,7 @@
                 <span>Need help?</span> Talk to an expert: +61 3 8376 6284
             </span>
             <!-- /.text-help -->
+            <!-- dropdown round -->
             <ul class="header-dropdown-list d-flex justify-content-start align-items-center">
                 <li class="dropdown show dropdown-note">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown"
@@ -94,12 +95,12 @@
                 </li>
                 <!-- /dropdown-note -->
                 <li class="dropdown show dropdown-male">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown"
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownmale" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-envelope-o"></i>
                         <span class="count mail">5</span>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownnote">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownmale">
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="round-img">
                                 <img src="img/test-picture.jpg" alt="">
@@ -137,15 +138,16 @@
                             <i class="fa fa-reply ml-auto" aria-hidden="true"></i>
                         </a>
                     </div>
+                    <!--/dropdown-menu-->
                 </li>
                 <!-- /dropdown-male -->
                 <li class="dropdown show dropdown-basket">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown"
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownbasket" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-shopping-cart"></i>
                         <span class="count basket">8</span>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownnote">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownbasket">
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="basket-img">
                                 <img src="img/test-picture.jpg" alt="">
@@ -177,15 +179,15 @@
                             <a href="#" class="btn btn-default btn-green">Go to Checkout</a>
                         </div>
                     </div>
+                    <!--/dropdown-menu -->
                 </li>
                 <!-- /dropdown-basket -->
             </ul>
             <!-- / dropdown round-->
-
             <!-- dropdown profile -->
             <div class="header-dropdown-list dropdown-profile d-flex align-items-center justify-content-between">
-                <a class="dropdown-toggle-profile d-flex align-items-center justify-content-between" href="#"
-                   role="button" id="dropdownprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="dropdown-toggle-profile d-flex align-items-center justify-content-between" href="#" role="button"
+                   id="dropdownprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="round-img">
                         <img src="img/test-picture.jpg" alt="">
                     </div>
@@ -229,11 +231,12 @@
                         <span class="dropdown-list-profile  ">Withdraws</span>
                     </a>
                 </div>
+                <!--/dropdown-menu dropdown-menu-right-->
             </div>
             <!-- /dropdown-profile -->
 
             <div class="header-buttons">
-                <button class="btn btn-default btn-red btn-round">Logout</button>
+                <button class="btn btn-default btn-red btn-round login">Logout</button>
             </div>
             <!-- /.header-buttons -->
         </div>
@@ -270,7 +273,7 @@
             <span>Premium WordPress Themes, Web Templates and Many More ...</span>
             <form>
                 <input type="search" name="search" class="search-form" placeholder="Search Your Keywords . . .">
-                <!--<img src="img/icon-search.png" alt="">-->
+                <i class="fa fa-search" aria-hidden="true"></i>
             </form>
         </div>
     </section>
@@ -1180,8 +1183,7 @@
                     <span>About Company</span>
                 </div>
                 <p>
-                    Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna
-                    iat.Praesent vel rutrum purus.
+                    Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.
                 </p>
                 <ul class="contacts">
                     <li>
@@ -1226,23 +1228,37 @@
                 </div>
                 <ul class="socials d-flex">
                     <li>
-                        <a href="#"><img src="img/icon-facebook.png" alt=""></a>
+                        <a href="#"><img src="img/icon-facebook.png" alt="">
+                            <i class="icon icon-fb"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/icon-twitter.png" alt=""></a>
+                        <a href="#"><img src="img/icon-twitter.png" alt="">
+                            <i class="icon icon-tw"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/icon-youtube.png" alt=""></a>
+                        <a href="#"><img src="img/icon-youtube.png" alt="">
+                            <i class="icon icon-youtube"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/icon-pinterest.png" alt=""></a>
+                        <a href="#"><img src="img/icon-pinterest.png" alt="">
+                            <i class="icon icon-pinterest"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/icon-linkedin.png" alt=""></a>
+                        <a href="#"><img src="img/icon-linkedin.png" alt="">
+                            <i class="icon icon-linkedin"></i>
+                        </a>
                     </li>
                 </ul>
                 <form action="" class="subscribe">
                     <span>Newsletter Sign Up!</span>
+                    <div>
+                        <input type="email" name="subscribe" class="subscribe-form" placeholder="E-mail Address">
+                        <button type="submit"><i class="fa fa-location-arrow"></i></button>
+                    </div>
                 </form>
             </div>
             <!-- /.col-3 -->
@@ -1256,88 +1272,23 @@
 </footer>
 <!-- Footer end -->
 
-<!-- Login Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="modal-body">
-                <!-- /.close -->
-                <h4 class="login-title text-center">Login</h4>
-                <form name="login-form">
-                    <div class="login-form-group">
-                        <i class="fa fa-user"></i>
-                        <input type="text" name="nickName" class="login-form-control" placeholder="Name">
-                    </div>
-                    <!-- /.login-form-group -->
-                    <div class="login-form-group">
-                        <i class="fa fa-lock"></i>
-                        <input type="password" name="password" class="login-form-control" placeholder="Password">
-                    </div>
-                    <!-- /.login-form-group -->
-                    <div class="login-btn-group">
-                        <button type="submit" class="btn btn-white">Submit</button>
-                        <a href="#" class="btn btn-green">
-                            <i class="fa fa-pencil-square-o"></i> Creat An Account?
-                        </a>
-                    </div>
-                    <!-- /.login-btn-group -->
-                    <a href="#" class="lost-password">Lost Password?</a>
-                </form>
-                <!-- /.login-form -->
-            </div>
-            <!-- /.modal-body -->
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- Login Modal end -->
 
 <!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" .min.js
-"
-crossorigin="anonymous"></script>rE9 / Qpg6aAZGJwFDMVNA / GpGFF93hXpG5KkN
-"
-< script
-src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity = "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-crossorigin = "anonymous" ></script>
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-pper.js/1.12.9/umd/popper.min.js"
-<script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
-K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-/4.0.0/js/bootstrap.min.js"
-<script src="js/range.js"></script>
-GiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-
-<!-- Slick-nav -->
-<script src="js/jquery.slicknav.min.js"></script>
-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="js/range.js"></script>
-
-<!-- Slick-nav -->
-<script src="js/jquery.slicknav.min.js"></script>
 
 <!-- Init plugins -->
 <script src="js/init.js"></script>
