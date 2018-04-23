@@ -9,7 +9,6 @@
 
 .col-form-label {
     color: #444;
-    line-height: 1;
 }
 
 .col-form-label.required::after {
@@ -88,10 +87,48 @@
     background-color: #8bc34a;
 }
 
-.form-group .fa.fa-asterisk {
-    color: #8bc34a;
-    font-size: 9px;
-    vertical-align: top;
+.jq-file input {
+    font-size: 40px;
+}
+
+.jq-file {
+    width: 100%;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    line-height: 40px;
+}
+
+.jq-file:hover .jq-file__browse {
+    background: #FFF;
+}
+
+.jq-file__name {
+    height: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font: 15px/40px 'Roboto';
+    color: #707070;
+    padding: 0 15px 0 95px;
+    
+}
+
+.jq-file__browse {
+    left: 8px;
+    right: auto;
+    top: 7px;
+    padding: 0 13px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+    background: #FFF;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font: 12px/24px 'Roboto';
+    color: #444;
+    text-shadow: none;
 }
 
 textarea.form-control {
