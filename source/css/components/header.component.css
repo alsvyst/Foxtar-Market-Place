@@ -35,4 +35,43 @@ header .bottom-header .header-nav a:hover {
 header .bottom-header .header-nav a + a {
     margin-left: 40px;
 }
+@media (max-width: 991px) {
+    header .bottom-header .header-nav a {
+        display: block;
+        text-align: center;
+    }
+    header .bottom-header .header-nav a + a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    header .header-controls {
+        width: 100%;
+        margin-top: 20px;
+    }
+    header .text-help {
+        margin-right: auto;
+    }
+    header .top-header {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+@media (max-width: 576px) {
+    header .header-controls {
+        flex-wrap: wrap;
+    }
+    header .text-help {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    header .text-help span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    header .header-buttons {
+        text-align: right;
+        margin-left: 0;
+        flex-grow: 1;
+    }
+}
 /* header end */

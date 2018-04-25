@@ -83,4 +83,14 @@ footer .copyright {
     border-top: 1px solid #919699;
     color: #919699;
 }
+@media (max-width: 1199px) {
+    #footer .row div:nth-child(3), #footer .row div:nth-child(4) {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 767px) {
+    #footer .row > div + div {
+        margin-top: 70px;
+    }
+}
 /* footer end */

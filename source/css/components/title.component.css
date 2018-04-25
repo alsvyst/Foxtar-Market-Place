@@ -23,4 +23,10 @@
     color: #444;
     margin-bottom: 25px;
 }
+@media (max-width: 575px) {
+    .section-title  {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+}
 /* --- Title end --- */

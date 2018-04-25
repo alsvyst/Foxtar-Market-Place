@@ -6,3 +6,8 @@
     padding-top: 48px;
     padding-bottom: 135px;
 }
+@media (max-width: 575px) {
+    .default-section {
+        padding: 60px 0;
+    }
+}
