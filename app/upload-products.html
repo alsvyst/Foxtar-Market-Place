@@ -41,9 +41,11 @@
                     <span>Need help?</span> Talk to an expert: +61 3 8376 6284
                 </span>
                 <!-- /.text-help -->
+                <!-- dropdown round -->
                 <ul class="header-dropdown-list d-flex justify-content-start align-items-center">
                     <li class="dropdown show dropdown-note">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-bell-o"></i>
                             <span class="count note">8</span>
                         </a>
@@ -86,11 +88,12 @@
                     </li>
                     <!-- /dropdown-note -->
                     <li class="dropdown show dropdown-male">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownmale" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-envelope-o"></i>
                             <span class="count mail">5</span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownnote">
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownmale">
                             <a class="dropdown-item d-flex align-items-center" href="#">
                                 <div class="round-img">
                                     <img src="img/test-picture.jpg" alt="">
@@ -128,14 +131,16 @@
                                 <i class="fa fa-reply ml-auto" aria-hidden="true"></i>
                             </a>
                         </div>
+                        <!--/dropdown-menu-->
                     </li>
                     <!-- /dropdown-male -->
                     <li class="dropdown show dropdown-basket">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownbasket" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-shopping-cart"></i>
                             <span class="count basket">8</span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownnote">
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownbasket">
                             <a class="dropdown-item d-flex align-items-center" href="#">
                                 <div class="basket-img">
                                     <img src="img/test-picture.jpg" alt="">
@@ -167,14 +172,15 @@
                                 <a href="#" class="btn btn-default btn-green">Go to Checkout</a>
                             </div>
                         </div>
+                        <!--/dropdown-menu -->
                     </li>
                     <!-- /dropdown-basket -->
                 </ul>
                 <!-- / dropdown round-->
-    
                 <!-- dropdown profile -->
                 <div class="header-dropdown-list dropdown-profile d-flex align-items-center justify-content-between">
-                    <a class="dropdown-toggle-profile d-flex align-items-center justify-content-between" href="#" role="button" id="dropdownprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="dropdown-toggle-profile d-flex align-items-center justify-content-between" href="#" role="button"
+                       id="dropdownprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="round-img">
                             <img src="img/test-picture.jpg" alt="">
                         </div>
@@ -218,6 +224,7 @@
                             <span class="dropdown-list-profile  ">Withdraws</span>
                         </a>
                     </div>
+                    <!--/dropdown-menu dropdown-menu-right-->
                 </div>
                 <!-- /dropdown-profile -->
     
@@ -280,8 +287,8 @@
                         <div class="content-wrapper-body pb-0">
                             <form>
                                 <div class="form-group row">
-                                    <label for="selectCategory" class="col-sm-2 col-form-label required">Select Categories</label>
-                                    <div class="col-sm-10">
+                                    <label for="selectCategory" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Select Categories</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <select name="selectCategory" id="selectCategory">
                                             <option selected>Select</option>
                                             <option value="category 1">Category 1</option>
@@ -292,36 +299,36 @@
                                 </div>
                                 <!-- / form-group select-->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Product Name</label>
-                                    <div class="col-sm-10">
+                                    <label for="inputProductName" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Product Name</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="Enter your product name here ...">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="ProductDescription" class="col-sm-2 col-form-label required">Product Description</label>
-                                    <div class="col-sm-10">
+                                    <label for="ProductDescription" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Product Description</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <textarea name="text" class="form-control" id="ProductDescription" placeholder="Type your text  here"></textarea>
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Upload Main File</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="inputProductName" placeholder="">
+                                    <label for="file" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Upload Main File</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                                        <input type="file" name="file" id="file">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Upload Screenshots</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="inputProductName" placeholder="">
+                                    <label for="file" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Upload Screenshots</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                                        <input type="file" name="file" id="file">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="selectCountry" class="col-sm-2 col-form-label required">File Included</label>
-                                    <div class="col-sm-10">
+                                    <label for="selectCountry" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">File Included</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <select name="selectCountry" id="selectCountry">
                                             <option selected>Select File Type</option>
                                             <option value="category 1">File Type 1</option>
@@ -332,15 +339,15 @@
                                 </div>
                                 <!-- / form-group select-->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label required">File Dimensions</label>
-                                    <div class="col-sm-10">
+                                    <label for="inputProductName" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">File Dimensions</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="Enter the item  dimensions here ...">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputProductName" class="col-sm-2 col-form-label required">Item Tags</label>
-                                    <div class="col-sm-10">
+                                    <label for="inputProductName" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Item Tags</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <input type="text" class="form-control" id="inputProductName" placeholder="Enter Tag Here">
                                     </div>
                                 </div>
@@ -356,21 +363,21 @@
                         <div class="content-wrapper-body">
                             <form>
                                 <div class="form-group row">
-                                    <label for="inputRegularLicense" class="col-sm-2 col-form-label required">Regular License</label>
-                                    <div class="col-sm-10">
+                                    <label for="inputRegularLicense" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Regular License</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <input type="text" class="form-control" id="inputRegularLicense" placeholder="$00.00">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="form-group row">
-                                    <label for="inputRegularLicense" class="col-sm-2 col-form-label required">Extended License</label>
-                                    <div class="col-sm-10">
+                                    <label for="inputRegularLicense" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Extended License</label>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                                         <input type="text" class="form-control" id="inputRegularLicense" placeholder="$00.00">
                                     </div>
                                 </div>
                                 <!-- / form-group -->
                                 <div class="row">
-                                    <div class="col-sm-10 offset-sm-2">
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 offset-md-3 offset-lg-3 offset-xl-2">
                                         <button class="btn btn-default btn-lg btn-green">Submit</button>
                                     </div>
                                 </div>

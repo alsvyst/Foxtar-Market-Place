@@ -95,10 +95,6 @@
     line-height: 40px;
 }
 
-.jq-file:hover .jq-file__browse {
-    background: #FFF;
-}
-
 .jq-file__name {
     height: 40px;
     background-color: #f9f9f9;
@@ -109,6 +105,9 @@
     color: #707070;
     padding: 0 15px 0 95px;
     
+}
+.jq-file.focused .jq-file__name {
+    border-color: #707070;
 }
 
 .jq-file__browse {
@@ -125,8 +124,19 @@
     text-shadow: none;
 }
 
+.jq-file:hover .jq-file__browse {
+    background: #FFF;
+}
+
 textarea.form-control {
     min-height: 150px;
     padding-top: 14px;
 }
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1140px;
+    } 
+}
+   
 /* Forms element end */
