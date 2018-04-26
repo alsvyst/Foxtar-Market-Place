@@ -51,27 +51,39 @@ header .bottom-header .header-nav a + a {
     header .text-help {
         margin-right: auto;
     }
+    header .text-help span {
+        display: block;
+        margin-bottom: 10px;
+    }
     header .top-header {
         padding-right: 15px;
         padding-left: 15px;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     header .header-controls {
-        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 40px;
     }
     header .text-help {
-        width: 100%;
+        display: none;
+    }
+}
+@media (max-width: 479px) {
+    header .header-controls {
+        flex-wrap: wrap-reverse;
+    }
+    header .header-controls > * {
         margin-bottom: 20px;
     }
-    header .text-help span {
-        display: block;
-        margin-bottom: 10px;
-    }
     header .header-buttons {
-        text-align: right;
-        margin-left: 0;
-        flex-grow: 1;
+        margin-left: auto;
+    }
+    header .header-dropdown-list.dropdown-profile {
+        min-width: 0;
+    }
+    header .header-dropdown-list.dropdown-profile .round-img {
+        display: none;
     }
 }
 /* header end */
