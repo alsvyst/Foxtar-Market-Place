@@ -31,7 +31,7 @@
             transform: translate3d(16px, 34px, 0px);
     top: 26px !important;
     will-change: transform;
-    z-index: 1000;
+    z-index: 900;
     min-width: 160px;
     color: #212529;
     background-color: #fff;
@@ -116,7 +116,7 @@
     height: 18px;
     width: 18px;
     border-radius: 50%;
-    z-index: 1001;
+    z-index: 900;
     top: -7px;
     right: -6px;
     color: #fff;
