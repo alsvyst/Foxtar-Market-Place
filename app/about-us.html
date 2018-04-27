@@ -28,18 +28,19 @@
 </head>
 <body>
     <!-- Header start -->
-    <header id="header">
-        <div class="top-header">
-            <div class="container d-flex align-items-center">
-                <div class="logo">
-                    <a href="#">
-                        <img src="img/logo.png" alt="">
-                    </a>
-                </div>
-                <!-- /.logo -->
-                <span class="text-help">
+    <header id="header" class="navbar-expand-lg">
+    <div class="top-header navbar-expand-lg navbar-light">
+        <div class="container d-flex flex-wrap align-items-center">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <!-- /.logo -->
+            <div class="order-1 header-controls d-flex align-items-center">
+                <div class="text-help">
                     <span>Need help?</span> Talk to an expert: +61 3 8376 6284
-                </span>
+                </div>
                 <!-- /.text-help -->
                 <!-- dropdown round -->
                 <ul class="header-dropdown-list d-flex justify-content-start align-items-center">
@@ -227,34 +228,37 @@
                     <!--/dropdown-menu dropdown-menu-right-->
                 </div>
                 <!-- /dropdown-profile -->
-    
                 <div class="header-buttons">
                     <button class="btn btn-default btn-red btn-round login">Logout</button>
                 </div>
                 <!-- /.header-buttons -->
             </div>
-            <!-- /.container -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-        <!-- /.top-header -->
-        <div class="bottom-header">
-            <div class="container">
-                <nav class="header-nav">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">WordPress</a>
-                    <a href="#">Joomla</a>
-                    <a href="#">PSD</a>
-                    <a href="#">Plugins</a>
-                    <a href="#">Components</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Help</a>
-                </nav>
-                <!-- /.header-nav -->
-            </div>
-            <!-- /.container -->
+        <!-- /.container -->
+    </div>
+    <!-- /.top-header -->
+    <div class="bottom-header collapse navbar-collapse" id="header-nav">
+        <div class="container">
+            <nav class="header-nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">WordPress</a>
+                <a href="#">Joomla</a>
+                <a href="#">PSD</a>
+                <a href="#">Plugins</a>
+                <a href="#">Components</a>
+                <a href="#">Pages</a>
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+            </nav>
+            <!-- /.header-nav -->
         </div>
-        <!-- /.bottom-header -->
+        <!-- /.container -->
+    </div>
+    <!-- /.bottom-header -->
     </header>
     <!-- Header end -->
     <!-- Main start -->
@@ -317,7 +321,7 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-title">
                         <span>About Company</span>
                     </div>
@@ -327,7 +331,7 @@
                     <ul class="contacts">
                         <li>
                             <i class="fa fa-map-marker"></i><span>PO Box 16122 Collins Street West
-                            Victoria 8007 Australia</span>
+                        Victoria 8007 Australia</span>
                         </li>
                         <li>
                             <i class="fa fa-phone"></i><span>+61 3 8376 6284</span>
@@ -335,7 +339,7 @@
                     </ul>
                 </div>
                 <!-- /.col-3 -->
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-title">
                         <span>Join Our Community</span>
                     </div>
@@ -348,7 +352,7 @@
                     </ul>
                 </div>
                 <!-- /.col-3 -->
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-title">
                         <span>Need Help?</span>
                     </div>
@@ -361,33 +365,33 @@
                     </ul>
                 </div>
                 <!-- /.col-3 -->
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-title">
                         <span>Follow Us On</span>
                     </div>
                     <ul class="socials d-flex">
                         <li>
-                            <a href="#"><img src="img/icon-facebook.png" alt="">
+                            <a href="#">
                                 <i class="icon icon-fb"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-twitter.png" alt="">
+                            <a href="#">
                                 <i class="icon icon-tw"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-youtube.png" alt="">
+                            <a href="#">
                                 <i class="icon icon-youtube"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-pinterest.png" alt="">
+                            <a href="#">
                                 <i class="icon icon-pinterest"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/icon-linkedin.png" alt="">
+                            <a href="#">
                                 <i class="icon icon-linkedin"></i>
                             </a>
                         </li>
@@ -406,8 +410,10 @@
             <!-- /.row -->
         </div>
         <!-- /.container -->
-        <div class="copyright text-center">
-            <span>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</span>
+        <div class="container-fluid">
+            <div class="copyright text-center">
+                <span>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</span>
+            </div>
         </div>
     </footer>
     <!-- Footer end -->
@@ -419,6 +425,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- JQuery form styler -->
 <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+<!-- Slick carousel -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/tags.js"></script>
 
 <!--  Init plugins -->
 <script src="js/init.js"></script>
