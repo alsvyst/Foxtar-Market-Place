@@ -1,3 +1,18 @@
 .setting-personal-info form button {
     margin-top: 25px;
 }
+.setting-personal-info .mobile-aside-toggle {
+    display: none;
+}
+@media (max-width: 991px) {
+    .setting-personal-info .mobile-aside-toggle {
+        display: flex;
+        margin-left: auto;
+        position: relative;
+        top: -54px;
+    }
+    .setting-personal-info aside {
+        position: relative;
+        top: 35%;
+    }
+}
