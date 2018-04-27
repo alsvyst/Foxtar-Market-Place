@@ -106,9 +106,9 @@
     border-radius: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
-    font: 15px/40px 'Roboto';
+    font: 12px/40px 'Roboto';
     color: #707070;
-    padding: 0 15px 0 95px;
+    padding: 0 15px 0 105px;
     
 }
 .jq-file.focused .jq-file__name {
