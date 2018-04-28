@@ -18,13 +18,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Slick style -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-
     <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Foxtar - Upload products</title>
+    <title>Foxtar-Profile Details</title>
 </head>
 <body>
     <!-- Header start -->
@@ -46,7 +43,7 @@
                     <ul class="header-dropdown-list d-flex justify-content-start align-items-center">
                         <li class="dropdown show dropdown-note">
                             <a class="dropdown-toggle" href="#" role="button" id="dropdownnote" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
+                                aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-bell-o"></i>
                                 <span class="count note">8</span>
                             </a>
@@ -90,7 +87,7 @@
                         <!-- /dropdown-note -->
                         <li class="dropdown show dropdown-male">
                             <a class="dropdown-toggle" href="#" role="button" id="dropdownmale" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
+                                aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-envelope-o"></i>
                                 <span class="count mail">5</span>
                             </a>
@@ -137,7 +134,7 @@
                         <!-- /dropdown-male -->
                         <li class="dropdown show dropdown-basket">
                             <a class="dropdown-toggle" href="#" role="button" id="dropdownbasket" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
+                                aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-shopping-cart"></i>
                                 <span class="count basket">8</span>
                             </a>
@@ -181,7 +178,7 @@
                     <!-- dropdown profile -->
                     <div class="header-dropdown-list dropdown-profile d-flex align-items-center justify-content-between">
                         <a class="dropdown-toggle-profile d-flex align-items-center justify-content-between" href="#" role="button"
-                           id="dropdownprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            id="dropdownprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="round-img">
                                 <img src="img/test-picture.jpg" alt="">
                             </div>
@@ -263,6 +260,7 @@
     <!-- Header end -->
     <!-- Main start -->
     <main id="main">
+        <!-- Search-section -->
         <section class="search-section">
             <div class="container-fluid">
                 <span>Premium WordPress Themes, Web Templates and Many More ...</span>
@@ -272,127 +270,167 @@
                 </form>
             </div>
         </section>
-        <!-- /.search-section -->
+        <!-- / Search-section -->
         <section class="content-section bg-light-grey">
             <div class="container">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Upload Product</li>
+                        <li class="breadcrumb-item active" aria-current="page">Profile Page</li>
                     </ol>
                 </nav>
                 <!-- / breadcrumb -->
-                <div class="upload-product-wrapp">
-                    <div class="content-wrapper">
-                        <div class="content-wrapper-title block-title">
-                            <span>Upload Your item</span>
+                <div class="profile-details-wrapp">
+                    <div class="row">
+                        <div class="col-3">
+                            <aside class="aside-section">
+                                <div class="aside-title"><span >Product Author</span></div>
+                                <div class="product-author-wrapp d-flex justify-content-between"> 
+                                    <div class="product-author-img">
+                                        <img src="img/product-img-aside-sm.jpg" alt="">
+                                    </div>
+                                    <!-- / product-author-img -->
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <span class="product-author-name">PsdBoss</span>
+                                        <div class="view-profile-btn">
+                                            <a href="#"><i class="fa fa-circle"></i>Online</a>
+                                        </div>
+                                        <!-- / view-profile-btn -->
+                                    </div>
+                                    <!-- / d-flex -->
+                                </div>
+                                <!-- / product-author-wrapp -->
+                                <div class="sprites d-flex justify-content-between">
+                                    <i class="icon icon-one"></i>
+                                    <i class="icon icon-two"></i>
+                                    <i class="icon icon-three"></i>
+                                    <i class="icon icon-four"></i>
+                                    <i class="icon icon-five"></i>
+                                </div>
+                                <!-- / sprites --> 
+                            </aside>
+                            <!--/aside-section Product Author-->
+                            <div class="sprites d-flex">
+                                <i class="icon icon-fb"></i>
+                                <i class="icon icon-tw"></i>
+                                <i class="icon icon-youtube"></i>
+                                <i class="icon icon-linkedin"></i>
+                            </div>
+                            <!-- / sprites -->
+                            <button class="btn btn-default btn-lg btn-darcblue btn-shadow col col-12"><i class="fa fa-envelope-o"></i>Send Message</button> 
+                            <button class="btn btn-default btn-lg btn-green btn-shadow col col-12">Following</button>
+                            <aside class="aside-tabs">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link active" id="pills-about-me-tab" data-toggle="pill" href="#pills-about-me" role="tab" aria-controls="pills-about-me" aria-selected="true"><i class="fa fa-user"></i>About Me</a>
+                                    <a class="nav-link" id="pills-products-tab" data-toggle="pill" href="#pills-products" role="tab" aria-controls="pills-products" aria-selected="false"><i class="fa fa-suitcase"></i>Products</a>
+                                    <a class="nav-link" id="pills-messages-tab" data-toggle="pill" href="#pills-messages" role="tab" aria-controls="pills-messages" aria-selected="false"><i class="fa fa-envelope-o"></i>Message Box</a>
+                                    <a class="nav-link" id="pills-reviews-tab" data-toggle="pill" href="#pills-reviews" role="tab" aria-controls="pills-reviews" aria-selected="false"><i class="fa fa-comments-o"></i>Customer Reviews</a>
+                                    <a class="nav-link" id="pills-followers-tab" data-toggle="pill" href="#pills-followers" role="tab" aria-controls="pills-followers" aria-selected="false"><i class="fa fa-users"></i>Followers</a>
+                                </div>
+                                <!-- / nav -->
+                            </aside>
+                            <!-- / aside-tabs -->
                         </div>
-                        <!-- /.content-wrapper-title -->
-                        <div class="content-wrapper-body">
-                            <form>
-                                <div class="form-group row">
-                                    <label for="selectCategory" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Select Categories</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <select name="selectCategory" id="selectCategory">
-                                            <option selected>Select</option>
-                                            <option value="category 1">Category 1</option>
-                                            <option value="category 2">Category 2</option>
-                                            <option value="category 3">Category 3</option>
-                                        </select>
-                                    </div>
+                        <!-- / col -->
+                        <div class="col-9">
+                            <div class="profile-details-banner ">
+                                <div class="profile-details-img d-flex align-items-center justify-content-center">
+                                    <span class="banner-text ">Banner Here</span>
+                                    <img src="" alt="">
                                 </div>
-                                <!-- / form-group select-->
-                                <div class="form-group row">
-                                    <label for="inputProductName" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Product Name</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="text" class="form-control" id="inputProductName" placeholder="Enter your product name here ...">
-                                    </div>
+                                <!-- / profile-details-img -->
+                            </div>
+                            <!-- / profile-details-img -->
+                            <div class="profile-items d-flex ">
+                                <div class="profile-items-list">
+                                    <span class="profile-item-title">Country</span>
+                                    <span class="profile-item-text">England</span> 
                                 </div>
-                                <!-- / form-group -->
-                                <div class="form-group row">
-                                    <label for="ProductDescription" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Product Description</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <textarea name="text" class="form-control" id="ProductDescription" placeholder="Type your text  here"></textarea>
-                                    </div>
+                                <!-- / profile-items-list -->
+                                <div class="profile-items-list">
+                                    <span class="profile-item-title">Member Since:</span>
+                                    <span class="profile-item-text">December 26, 2014</span> 
                                 </div>
-                                <!-- / form-group -->
-                                <div class="form-group row">
-                                    <label for="upload-file" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Upload Main File</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="file" name="file" id="upload-file" data-placeholder="No File Choosen" data-browse="Choose File">
-                                    </div>
+                                <!-- / profile-items-list -->
+                                <div class="profile-items-list">
+                                    <span class="profile-item-title">Author Rating:</span>
+                                    <span class="profile-item-text d-flex justify-content-center">
+                                        <ul class="card-product-rating list-inline">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        </ul>
+                                        <span class="rating-count">05</span>
+                                    </span>
+                                     <!--/ profile-item-text  -->
                                 </div>
-                                <!-- / form-group -->
-                                <div class="form-group row">
-                                    <label for="upload-Screenshots" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Upload Screenshots</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="file" name="file" id="upload-Screenshots" data-placeholder="No File Choosen" data-browse="Choose File">
-                                    </div>
+                                <!-- / profile-items-list -->
+                                <div class="profile-items-list">
+                                    <span class="profile-item-title">Total Sales:</span>
+                                    <span class="profile-item-price">$ 5,030</span> 
                                 </div>
-                                <!-- / form-group -->
-                                <div class="form-group row">
-                                    <label for="selectCountry" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">File Included</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <select name="selectCountry" id="selectCountry">
-                                            <option selected>Select File Type</option>
-                                            <option value="category 1">File Type 1</option>
-                                            <option value="category 2">File Type 2</option>
-                                            <option value="category 3">File Type 3</option>
-                                        </select>
+                                <!-- / profile-items-list -->
+                            </div>
+                            <!-- / profile-items -->
+                            <section class="tabs-section">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-about-me" role="tabpanel" aria-labelledby="pills-about-me-tab">
+                                        <div class="title-md">
+                                            <span>About Me</span>
+                                        </div>
+                                        <p class="default-text">
+                                            Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.     
+                                        </p>
+                                        <!-- / default-text -->
+                                        <div class="skills-wrapper">
+                                            <div class="title-md">
+                                                <span>Skills:</span>
+                                            </div>
+                                            <!-- / skill-title -->
+                                            <div class="skill-item">
+                                                <span class="skill-name">Graphic Design</span>
+                                                <div class="progress mt-3">
+                                                    <div class="progress-bar progress-bar-striped bg-grey" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <!-- / progress  -->
+                                            </div>
+                                            <!-- / skill-item -->
+                                            <div class="skill-item">
+                                                <span class="skill-name">WordPress</span>
+                                                <div class="progress mt-3">
+                                                    <div class="progress-bar progress-bar-striped bg-grey" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <!-- / progress  -->
+                                            </div>
+                                            <!-- / skill-item -->
+                                            <div class="skill-item">
+                                                <span class="skill-name">Joomla</span>
+                                                <div class="progress mt-3">
+                                                    <div class="progress-bar progress-bar-striped bg-grey" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <!-- / progress  -->
+                                            </div>
+                                            <!-- / skill-item -->
+                                        </div>
+                                        <!-- / skills-wrapper -->
                                     </div>
+                                    <!-- / tab-pane -->
+                                    <div class="tab-pane fade" id="pills-products" role="tabpanel" aria-labelledby="pills-products-tab">Products</div>
+                                    <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">Messages</div>
+                                    <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">Reviews</div>
+                                    <div class="tab-pane fade" id="pills-followers" role="tabpanel" aria-labelledby="pills-followers-tab">Followers</div>
                                 </div>
-                                <!-- / form-group select-->
-                                <div class="form-group row">
-                                    <label for="inputFileDimensions" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">File Dimensions</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="text" class="form-control" id="inputFileDimensions" placeholder="Enter the item  dimensions here ...">
-                                    </div>
-                                </div>
-                                <!-- / form-group -->
-                                <div class="form-group row">
-                                    <label for="inputItemTags" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Item Tags</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="text" class="form-control" id="inputItemTags" placeholder="Enter Tag Here">
-                                    </div>
-                                </div>
-                                <!-- / form-group -->
-                            </form>
-                            <!-- / form -->
+                                <!-- / tab-content -->
+                            </section>
+                            <!-- / tabs-section -->
                         </div>
-                        <!-- /.content-wrapper-body -->
-                        <div class="content-wrapper-title pt-0">
-                            <span class="block-title">Set Your Price (US$)</span>
-                        </div>
-                        <!-- /.content-wrapper-title -->
-                        <div class="content-wrapper-body">
-                            <form>
-                                <div class="form-group row">
-                                    <label for="inputRegularLicense" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Regular License</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="text" class="form-control" id="inputRegularLicense" placeholder="$00.00">
-                                    </div>
-                                </div>
-                                <!-- / form-group -->
-                                <div class="form-group row">
-                                    <label for="inputExtendedLicense" class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 col-form-label required">Extended License</label>
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                        <input type="text" class="form-control" id="inputExtendedLicense" placeholder="$00.00">
-                                    </div>
-                                </div>
-                                <!-- / form-group -->
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 offset-md-3 offset-lg-3 offset-xl-2">
-                                        <button class="btn btn-default btn-lg btn-green">Submit</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- / form -->
-                        </div>
-                        <!-- / content-wrapper-body -->
+                        <!-- / col -->
                     </div>
-                    <!-- /.content-wrapper -->
+                    <!-- / row -->
                 </div>
-                <!-- / upload-product-wrapp -->
+                <!-- / profile-details-wrapp -->
             </div>
             <!-- / container -->
         </section>
@@ -485,7 +523,6 @@
                             <button type="submit"><i class="fa fa-location-arrow"></i></button>
                         </div>
                     </form>
-                    </form>
                 </div>
                 <!-- /.col-3 -->
             </div>
@@ -499,7 +536,8 @@
         </div>
     </footer>
     <!-- Footer end -->
-
+        
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -512,5 +550,6 @@
 
     <!--  Init plugins -->
     <script src="js/init.js"></script>
+    
 </body>
 </html>

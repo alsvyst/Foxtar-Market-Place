@@ -283,9 +283,14 @@
                     </ol>
                 </nav>
                 <!-- / breadcrumb -->
+                <button class="mobile-aside-toggle d-flex ml-auto">
+                    <i class="fa fa fa-bars"></i>
+                </button>
+                <!-- / mobile-aside-toggle -->
                 <div class="product-details-wrapp">
+                    <div class="overlay"></div>
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-12 col-lg-9">
                             <div class="product-details-img">
                                 <img src="img/product-img-big.jpg" alt="">
                             </div>
@@ -299,10 +304,13 @@
                             </p>
                             <!-- / defaul-text -->
                             <div class="btn-social-wrapp d-flex align-items-center">
-                                <a href="#" class="btn btn-default btn-lg btn-red">Live Preview</a>
-                                <a href="#" class="btn btn-default btn-lg btn-gray ">Screenshots</a>
-                                <a href="#" class="btn btn-default btn-lg btn-green">Documentation</a>
-                                <ul class="socials d-flex ml-auto">
+                                <div class="buttons d-flex">
+                                    <a href="#" class="btn btn-default btn-lg btn-red">Live Preview</a>
+                                    <a href="#" class="btn btn-default btn-lg btn-gray ">Screenshots</a>
+                                    <a href="#" class="btn btn-default btn-lg btn-green">Documentation</a>
+                                </div>
+                                <!-- / buttons -->
+                                <ul class="socials d-flex">
                                     <li>
                                         <a href="#"><i class="icon icon-fb-big"></i></a>
                                     </li>
@@ -337,7 +345,7 @@
                                 <!-- / nav-tabs -->
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
-                                        <div class="content-wrapper-body d-flex justify-content-start">
+                                        <div class="content-wrapper-body d-flex flex-wrap justify-content-start">
                                             <ul class="list-arrows">
                                                 <li><i class="fa fa-angle-right"></i><a href="#">Printing and typesetting industry</a></li>
                                                 <li><i class="fa fa-angle-right"></i><a href="#">Bhen an unknown printe</a></li>
@@ -372,7 +380,7 @@
                                 </div>
                                 <!-- / product-by -->
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-lg-4">
                                         <div class="card small-card">
                                             <div class="card-img">
                                                 <a href="#">
@@ -395,7 +403,7 @@
                                         <!-- / small-card -->
                                     </div>
                                     <!-- / col-4 -->
-                                    <div class="col-4">
+                                    <div class="col-12 col-sm-6 col-lg-4">
                                         <div class="card small-card">
                                             <div class="card-img">
                                                 <a href="#">
@@ -418,7 +426,7 @@
                                         <!-- / small-card -->
                                     </div>
                                     <!-- / col-4 -->
-                                    <div class="col-4">
+                                    <div class="col-12 col-sm-6 col-lg-4">
                                         <div class="card small-card">
                                             <div class="card-img">
                                                 <a href="#">
@@ -441,7 +449,7 @@
                                         <!-- / small-card -->
                                     </div>
                                     <!-- / col-4 -->
-                                    <div class="col-4">
+                                    <div class="col-12 col-sm-6 col-lg-4">
                                         <div class="card small-card">
                                             <div class="card-img">
                                                 <a href="#">
@@ -464,7 +472,7 @@
                                         <!-- / small-card -->
                                     </div>
                                     <!-- / col-4 -->
-                                    <div class="col-4">
+                                    <div class="col-12 col-sm-6 col-lg-4">
                                         <div class="card small-card">
                                             <div class="card-img">
                                                 <a href="#">
@@ -487,7 +495,7 @@
                                         <!-- / small-card -->
                                     </div>
                                     <!-- / col-4 -->
-                                    <div class="col-4">
+                                    <div class="col-12 col-sm-6 col-lg-4">
                                         <div class="card small-card">
                                             <div class="card-img">
                                                 <a href="#">
@@ -516,7 +524,7 @@
                             <!-- / more-product-section -->
                         </div>
                         <!-- / col -->
-                        <div class="col-3">
+                        <div class="col-12 col-md-8 col-lg-3 mobile-aside right">
                             <aside class="aside-section">
                                 <div class="aside-title"><span >Product Price</span></div>
                                 <div class="product-price-wrapp d-flex align-items-center justify-content-between">
@@ -713,7 +721,6 @@
                             <button type="submit"><i class="fa fa-location-arrow"></i></button>
                         </div>
                     </form>
-                    </form>
                 </div>
                 <!-- /.col-3 -->
             </div>
@@ -738,6 +745,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
     <!-- Slick carousel -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   
+    <script src="js/aside.js"></script>
 
     <!--  Init plugins -->
     <script src="js/init.js"></script>

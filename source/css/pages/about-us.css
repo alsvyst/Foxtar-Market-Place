@@ -6,4 +6,9 @@
 .about-us-wrapp .default-text {
     margin-bottom: 52px;
 }
+@media (max-width: 767px) {
+    .about-us-wrapp .content-wrapper .content-wrapper-body {
+        padding: 30px 45px 0 40px;
+    }
+}
 /* --- About Us page end --- */
