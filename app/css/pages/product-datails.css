@@ -136,6 +136,9 @@
         width: 40%;
         margin: auto;
     }
+    .breadcrumds-section .mobile-aside-toggle {
+        margin-right: 15px;
+    }
 }
 @media (max-width: 767px) {
     .container {

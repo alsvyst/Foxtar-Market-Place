@@ -1,7 +1,10 @@
 /*  --- Breadcrumbs start --- */
+.navigation-section {
+    margin-bottom: 39px;
+}
 .breadcrumb {
     padding: 0;
-    margin-bottom: 39px;
+    margin-bottom: 0;
     background-color: transparent;
 }
 .breadcrumb-item {
@@ -13,7 +16,7 @@
 .breadcrumb-item.active {
     color:#263238 ;
 }
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
     padding-right: 10px;
     padding-left: 10px;
     color: #8bc34a;
