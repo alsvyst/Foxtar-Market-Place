@@ -254,9 +254,20 @@
     .dropdown-menu {
         top: 24px !important;
     }
+    .dropdown-note .dropdown-menu,
+    .dropdown-male .dropdown-menu,
+    .dropdown-basket .dropdown-menu  {
+        left: -5px !important;
+    }
+    .dropdown-menu-right {
+        left: 15px !important;
+    }
 }
-@media  (max-width: 479px){
-    .dropdown-menu {
-        top: 44px !important;
+@media (max-width: 479px) {
+    .header-dropdown-list.dropdown-profile {
+        min-width: 0;
+    }
+    .header-dropdown-list.dropdown-profile .round-img {
+        display: none;
     }
 }

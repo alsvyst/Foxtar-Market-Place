@@ -85,13 +85,18 @@ footer .copyright {
 }
 @media (max-width: 1199px) {
     #footer .row div:nth-child(3), #footer .row div:nth-child(4) {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     #footer .row > div + div {
-        margin-top: 70px;
+        margin-top: 60px;
     }
-
+    #footer .row {
+        padding: 60px 0;
+    }
+    #footer .footer-title {
+        font-size: 18px;
+    }
 }
 /* footer end */

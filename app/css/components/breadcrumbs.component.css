@@ -19,4 +19,9 @@
     color: #8bc34a;
     content: "-";
 }
+@media  (max-width: 575px){
+    .breadcrumb {
+        display: none;
+    }
+}
 /*  --- Breadcrumbs end --- */

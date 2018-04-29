@@ -35,6 +35,9 @@ header .bottom-header .header-nav a:hover {
 header .bottom-header .header-nav a + a {
     margin-left: 40px;
 }
+header .bottom-header .header-nav .logout-mobile {
+    display: none;
+}
 @media (max-width: 991px) {
     header .bottom-header .header-nav a {
         display: block;
@@ -72,21 +75,14 @@ header .bottom-header .header-nav a + a {
     }
 }
 @media (max-width: 479px) {
-    header .header-controls {
-        -ms-flex-wrap: wrap-reverse;
-            flex-wrap: wrap-reverse;
-    }
-    header .header-controls > * {
-        margin-bottom: 20px;
-    }
     header .header-buttons {
         margin-left: auto;
     }
-    header .header-dropdown-list.dropdown-profile {
-        min-width: 0;
-    }
-    header .header-dropdown-list.dropdown-profile .round-img {
+    header .btn-logout {
         display: none;
+    }
+    header .bottom-header .header-nav .logout-mobile {
+        display: block;
     }
 }
 /* header end */

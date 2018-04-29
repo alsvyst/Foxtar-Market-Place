@@ -10,4 +10,7 @@
     .default-section {
         padding: 60px 0;
     }
+    .content-section {
+        padding-bottom: 50px;
+    }
 }
