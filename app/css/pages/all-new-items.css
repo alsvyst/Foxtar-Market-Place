@@ -89,6 +89,7 @@ body.overflow {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        z-index: 1000;
     }
 
     .mobile-aside {
@@ -137,6 +138,19 @@ body.overflow {
         z-index: 998;
         opacity: 1;
     }
+}
+
+@media (max-width: 767px) {
+    .show-aside .sort-controls .mobile-aside-toggle {
+        position: fixed !important;
+        top: 40px !important;
+        right: 20px;
+        z-index: 1000;
+    }
+    .show-aside .sort-controls .mobile-aside-toggle i {
+         font-size: 20px;
+        color: #263238;
+     }
 }
 
 @media (max-width: 575px) {
