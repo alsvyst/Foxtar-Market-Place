@@ -19,21 +19,13 @@
 }
 .profile-items .profile-items-list {
     width: 25%;
+    height: 78px;
     text-align: center;
     background-color: #fff;
     padding: 22px 0 18px;
 }
 .profile-items .profile-items-list + .profile-items-list {
     border-left: 1px solid #dcdcdc;
-}
-.profile-items-list span {
-    display: block;
-}
-.profile-items-list .profile-item-title {
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #263238;
 }
 .profile-items-list .rating-count {
     margin-left: 8px;
@@ -57,7 +49,7 @@
     font-style: italic;
     color: #263238;
 }
-.progress {
+.skills-wrapper .skill-item .progress {
     background-color: #f4f4f4;
 }
 .profile-details-wrapp .aside-section .product-author-wrapp {
@@ -98,5 +90,46 @@
 }
 .profile-details-wrapp .aside-tabs .fa {
     margin-right: 14px;
+}
+@media (max-width: 991px) {
+    .profile-details-wrapp .aside-section .sprites {
+        width: 40%;
+        margin: auto;
+    }
+    .profile-details .mobile-aside-toggle {
+        margin-left: auto;
+        position: relative;
+        top: -54px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 767px;
+    }
+     .profile-items {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .profile-items .profile-items-list {
+        width: 50%;
+        border: 1px solid #dcdcdc;
+    }
+    .profile-details-wrapp .aside-section .sprites {
+        width: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .profile-details-wrapp .aside-section .sprites {
+        width: 70%;
+    }
+    .profile-details .mobile-aside-toggle {
+        top: -25px;
+    }
+    .skills-wrapper .skill-item + .skill-item {
+        margin-top: 15px;
+    }
+    .skills-wrapper .skill-item .skill-name {
+        font-size: 14px;
+    }
 }
 /* --- Profile details page end --- */

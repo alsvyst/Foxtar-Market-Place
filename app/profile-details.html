@@ -272,25 +272,22 @@
             </div>
         </section>
         <!-- / Search-section -->
-        <section class="content-section bg-light-grey">
+        <section class="content-section profile-details bg-light-grey">
             <div class="container">
-                <section class="navigation-section d-flex justify-content-between">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Profile Page</li>
-                        </ol>
-                    </nav>
-                    <!-- / nav -->
-                    <button class="mobile-aside-toggle">
-                        <i class="fa fa fa-bars"></i>
-                    </button>
-                    <!-- / mobile-aside-toggle -->
-                </section>
-                <!-- / navigation-section -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Profile Page</li>
+                    </ol>
+                </nav>
+                <!-- / breadcrumb -->
+                <div class="overlay"></div>
+                <!--/overlay-->
+                <button class="mobile-aside-toggle"><i class="fa fa-bars"></i></button>
+                <!-- / mobile-aside-toggle -->
                 <div class="profile-details-wrapp">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-12 col-md-8 col-lg-3 mobile-aside left">
                             <aside class="aside-section">
                                 <div class="aside-title"><span >Product Author</span></div>
                                 <div class="product-author-wrapp d-flex justify-content-between"> 
@@ -318,15 +315,17 @@
                                 <!-- / sprites --> 
                             </aside>
                             <!--/aside-section Product Author-->
-                            <div class="sprites d-flex">
+                            <aside class="sprites d-flex">
                                 <i class="icon icon-fb"></i>
                                 <i class="icon icon-tw"></i>
                                 <i class="icon icon-youtube"></i>
                                 <i class="icon icon-linkedin"></i>
-                            </div>
+                            </aside>
                             <!-- / sprites -->
-                            <button class="btn btn-default btn-lg btn-darcblue btn-shadow col col-12"><i class="fa fa-envelope-o"></i>Send Message</button> 
-                            <button class="btn btn-default btn-lg btn-green btn-shadow col col-12">Following</button>
+                            <aside>
+                               <button class="btn btn-default btn-lg btn-darcblue btn-shadow col col-12"><i class="fa fa-envelope-o"></i>Send Message</button> 
+                                <button class="btn btn-default btn-lg btn-green btn-shadow col col-12">Following</button> 
+                            </aside>
                             <aside class="aside-tabs">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                     <a class="nav-link active" id="pills-about-me-tab" data-toggle="pill" href="#pills-about-me" role="tab" aria-controls="pills-about-me" aria-selected="true"><i class="fa fa-user"></i>About Me</a>
@@ -340,7 +339,7 @@
                             <!-- / aside-tabs -->
                         </div>
                         <!-- / col -->
-                        <div class="col-9">
+                        <div class="col-12 col-lg-9">
                             <div class="profile-details-banner ">
                                 <div class="profile-details-img d-flex align-items-center justify-content-center">
                                     <span class="banner-text ">Banner Here</span>
@@ -350,17 +349,17 @@
                             </div>
                             <!-- / profile-details-img -->
                             <div class="profile-items d-flex ">
-                                <div class="profile-items-list">
+                                <div class="profile-items-list d-flex flex-column justify-content-between">
                                     <span class="profile-item-title">Country</span>
                                     <span class="profile-item-text">England</span> 
                                 </div>
                                 <!-- / profile-items-list -->
-                                <div class="profile-items-list">
+                                <div class="profile-items-list d-flex flex-column justify-content-between">
                                     <span class="profile-item-title">Member Since:</span>
                                     <span class="profile-item-text">December 26, 2014</span> 
                                 </div>
                                 <!-- / profile-items-list -->
-                                <div class="profile-items-list">
+                                <div class="profile-items-list d-flex flex-column justify-content-between">
                                     <span class="profile-item-title">Author Rating:</span>
                                     <span class="profile-item-text d-flex justify-content-center">
                                         <ul class="card-product-rating list-inline">
@@ -375,7 +374,7 @@
                                      <!--/ profile-item-text  -->
                                 </div>
                                 <!-- / profile-items-list -->
-                                <div class="profile-items-list">
+                                <div class="profile-items-list d-flex flex-column justify-content-between">
                                     <span class="profile-item-title">Total Sales:</span>
                                     <span class="profile-item-price">$ 5,030</span> 
                                 </div>
@@ -399,7 +398,7 @@
                                             <!-- / skill-title -->
                                             <div class="skill-item">
                                                 <span class="skill-name">Graphic Design</span>
-                                                <div class="progress mt-3">
+                                                <div class="progress mt-2 mt-sm-3">
                                                     <div class="progress-bar progress-bar-striped bg-grey" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <!-- / progress  -->
@@ -407,7 +406,7 @@
                                             <!-- / skill-item -->
                                             <div class="skill-item">
                                                 <span class="skill-name">WordPress</span>
-                                                <div class="progress mt-3">
+                                                <div class="progress mt-2 mt-sm-3">
                                                     <div class="progress-bar progress-bar-striped bg-grey" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <!-- / progress  -->
@@ -415,7 +414,7 @@
                                             <!-- / skill-item -->
                                             <div class="skill-item">
                                                 <span class="skill-name">Joomla</span>
-                                                <div class="progress mt-3">
+                                                <div class="progress mt-2 mt-sm-3">
                                                     <div class="progress-bar progress-bar-striped bg-grey" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <!-- / progress  -->
@@ -555,6 +554,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
     <!-- Slick carousel -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/aside.js"></script>
 
     <!--  Init plugins -->
     <script src="js/init.js"></script>

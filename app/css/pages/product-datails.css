@@ -122,7 +122,6 @@
     font-weight: 500;
     color: #263238;
     line-height: 2.57;
-
 }
 .product-info-list li:last-of-type {
     line-height: 1.43;
@@ -136,8 +135,10 @@
         width: 40%;
         margin: auto;
     }
-    .breadcrumds-section .mobile-aside-toggle {
-        margin-right: 15px;
+    .product-details .mobile-aside-toggle {
+        margin-left: auto;
+        position: relative;
+        top: -54px;
     }
 }
 @media (max-width: 767px) {
@@ -189,6 +190,9 @@
 @media (max-width: 576px) {
     .product-details-wrapp .aside-section .sprites {
         width: 70%;
+    }
+    .product-details .mobile-aside-toggle {
+        top: -25px;
     }
 }
 /* --- Product details page end --- */
