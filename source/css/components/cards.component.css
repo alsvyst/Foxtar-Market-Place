@@ -36,18 +36,6 @@
     font-size: 12px;
 }
 
-@media (max-width: 1200px) {
-    .card-product-rating .list-inline-item i {
-        margin-left: -2px;
-        font-size: 11px;
-    }
-}
-@media (max-width: 576px) {
-    .card-product-rating .list-inline-item i {
-        margin-left: 1px;
-        font-size: 12px;
-    }
-}
 .card-item-title {
     color: #263238;
     font-weight: 700;
@@ -67,17 +55,6 @@
     font-size: 14px;
 }
 
-@media (max-width: 1200px) {
-    .card-item-category {
-        font-weight: 400;
-    }
-}
-@media (max-width: 576px) {
-    .card-item-category {
-        font-weight: 500;
-        font-size: 14px;
-    }
-}
 .card-author .author-name {
     color: #546e7a;
     font-weight: 500;
@@ -86,16 +63,6 @@
     margin-left: 0;
 }
 
-@media (max-width: 1200px) {
-    .card-author .author-name {
-        padding-left: 5px;
-    }
-}
-@media (max-width: 576px) {
-    .card-author .author-name {
-        padding-left: 10px;
-    }
-}
 .card-author .round-img {
     width: 30px;
     height: 30px;
@@ -113,6 +80,37 @@
 .rating-count:after {
     content: ')';
     color: #b0bec5;
+}
+
+@media (max-width: 1199px) {
+    .card-product-rating .list-inline-item i {
+        margin-left: -2px;
+        font-size: 11px;
+    }
+
+    .card-item-category {
+        font-weight: 400;
+    }
+
+    .card-author .author-name {
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .card-product-rating .list-inline-item i {
+        margin-left: 1px;
+        font-size: 12px;
+    }
+
+    .card-item-category {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .card-author .author-name {
+        padding-left: 10px;
+    }
 }
 
 /*Card aside-section*/
@@ -142,20 +140,22 @@
     padding-bottom: 10px;
 }
 
-@media (max-width: 1200px) {
-    .aside-section .card-item-title {
-        font-size: 14px;
-    }
-}
-@media (max-width: 576px) {
-    .aside-section .card-item-title {
-        font-size: 16px;
-    }
-}
 .aside-section .card-info .card-price {
     color: #263238;
     font-size: 16px;
     font-weight: 700;
+}
+
+@media (max-width: 1199px) {
+    .aside-section .card-item-title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .aside-section .card-item-title {
+        font-size: 16px;
+    }
 }
 
 /*Default Card */
@@ -185,36 +185,13 @@
     padding: 27px 20px 16px;
 }
 
-@media (max-width: 1200px) {
-    .card.medium-card .card-info {
-        padding: 20px 12px;
-    }
-}
-
 .card.medium-card .card-author {
     border-top: 1px solid #d9e0e3;
     padding: 20px;
 }
 
-@media (max-width: 1200px) {
-    .card.medium-card .card-author {
-        padding: 15px 12px;
-    }
-}
-
 .card.medium-card .card-author .rating-count {
     margin-left: 9px;
-}
-
-@media (max-width: 1200px) {
-    .card.medium-card .card-author .rating-count {
-        margin-left: 2px;
-    }
-}
-@media (max-width: 1200px) {
-    .card.medium-card .card-author .rating-count {
-        margin-left: 9px;
-    }
 }
 
 .card.medium-card .card-item-title {
@@ -223,6 +200,24 @@
 
 .all-items-container .card.medium-card {
     margin-bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+    .card.medium-card .card-info {
+        padding: 20px 12px;
+    }
+
+    .card.medium-card .card-author {
+        padding: 15px 12px;
+    }
+
+    .card.medium-card .card-author .rating-count {
+        margin-left: 2px;
+    }
+
+    .card.medium-card .card-author .rating-count {
+        margin-left: 9px;
+    }
 }
 
 /*Row card*/
@@ -250,21 +245,9 @@
     padding: 30px 30px 20px;
 }
 
-@media (max-width: 1200px) {
-    .card.row-card .card-info {
-        padding: 20px 15px;
-    }
-}
-
 .card.row-card .card-author {
     padding: 30px 30px 20px;
     border-top: 1px solid #d9e0e3;
-}
-
-@media (max-width: 1200px) {
-    .card.row-card .card-author {
-        padding: 20px 15px;
-    }
 }
 
 .list-inline-item:not(:last-child) {
@@ -286,12 +269,6 @@
     padding-right: 15px;
 }
 
-@media (max-width: 1200px) {
-    .card.row-card .card-text-info {
-        padding: 0 15px 20px;
-    }
-}
-
 .card.row-card .sales-count {
     color: #aeb4bb;
     font-size: 13px;
@@ -310,11 +287,7 @@
 .card.row-card .card-price {
     font-size: 30px;
 }
-@media (max-width: 768px) {
-    .card.row-card .card-price {
-        font-size: 20px;
-    }
-}
+
 .card .comments {
     display: none;
 }
@@ -325,25 +298,44 @@
     margin: 0 17px;
 }
 
-@media (max-width: 1200px) {
-    .card .comments i {
-        margin: 0 12px;
-    }
-}
-@media (max-width: 768px) {
-    .card .comments i {
-        display: none;
-    }
-    .card .comments span {
-        display: none;
-    }
-}
 .card .comments span {
     margin-left: 30px;
 }
 
 .card.row-card .comments {
     display: flex;
+}
+
+@media (max-width: 1199px) {
+    .card.row-card .card-info {
+        padding: 20px 15px;
+    }
+
+    .card.row-card .card-author {
+        padding: 20px 15px;
+    }
+
+    .card.row-card .card-text-info {
+        padding: 0 15px 20px;
+    }
+
+    .card .comments i {
+        margin: 0 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card.row-card .card-price {
+        font-size: 20px;
+    }
+
+    .card .comments i {
+        display: none;
+    }
+
+    .card .comments span {
+        display: none;
+    }
 }
 
 /*Small card*/

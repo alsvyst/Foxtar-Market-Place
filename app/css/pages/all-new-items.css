@@ -45,12 +45,6 @@
     color: #8bc34a;
 }
 
-@media (max-width: 576px) {
-    .change-view-items {
-        display: none;
-    }
-}
-
 .sort-controls {
     border: 1px solid #dcdcdc;
     background-color: #fff;
@@ -73,6 +67,10 @@
     padding: 0;
 }
 
+.mobile-aside-toggle {
+    display: none;
+}
+
 .sort-controls .mobile-aside-toggle {
     margin-right: 15px;
 }
@@ -86,6 +84,12 @@ body.overflow {
 }
 
 @media (max-width: 991px) {
+    .mobile-aside-toggle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
     .mobile-aside {
         position: fixed;
         top: 15px;
@@ -131,5 +135,11 @@ body.overflow {
     #main.show-aside .overlay {
         z-index: 998;
         opacity: 1;
+    }
+}
+
+@media (max-width: 575px) {
+    .change-view-items {
+        display: none;
     }
 }

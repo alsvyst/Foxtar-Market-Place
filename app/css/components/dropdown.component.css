@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
+
 .dropdown-toggle {
     position: relative;
     display: block;
@@ -22,9 +23,10 @@
     color: #263238;
 }
 
-.header-dropdown-list li+li {
+.header-dropdown-list li + li {
     margin-left: 16px;
 }
+
 .dropdown-menu {
     position: absolute;
     -webkit-transform: translate3d(16px, 34px, 0px);
@@ -144,6 +146,7 @@
     min-width: 160px;
     margin-left: 20px;
 }
+
 /*Dropdowns profile*/
 
 .header-dropdown-list.dropdown-profile .dropdown-toggle {
@@ -242,4 +245,20 @@
 
 .dropdown-product-details .dropdown-menu {
     top: 0 !important;
+}
+
+@media  (max-width: 991px){
+    .dropdown-menu {
+        top: 27px !important;
+    }
+}
+@media  (max-width: 767px){
+    .dropdown-menu {
+        top: 24px !important;
+    }
+}
+@media  (max-width: 479px){
+    .dropdown-menu {
+        top: 44px !important;
+    }
 }
