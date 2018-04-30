@@ -62,7 +62,7 @@
 .profile-details-wrapp .sprites {
     margin-bottom: 25px;
 }
-.profile-details-wrapp .sprites i + i {
+.profile-details-wrapp .sprites.socials i + i {
     margin-left: 8px;
 }
 .profile-details-wrapp .btn-lg.btn-darcblue {
@@ -93,7 +93,12 @@
 }
 @media (max-width: 991px) {
     .profile-details-wrapp .aside-section .sprites {
-        margin: auto;
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+    }
+    .profile-details-wrapp .sprites i + i {
+        margin-left: 8px;
     }
     .profile-details .mobile-aside-toggle {
         margin-left: auto;
@@ -116,9 +121,6 @@
     .profile-items .profile-items-list {
         width: 50%;
         border: 1px solid #dcdcdc;
-    }
-    .profile-details-wrapp .aside-section .sprites {
-        width: 50%;
     }
     .show-aside .profile-details .mobile-aside-toggle {
         display: block;
