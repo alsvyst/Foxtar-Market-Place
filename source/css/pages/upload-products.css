@@ -10,4 +10,9 @@
 .upload-product-wrapp .btn.btn-lg {
     padding: 17px 38px;
 }
+@media (max-width: 576px) {
+    .upload-product-wrapp .content-wrapper .content-wrapper-body {
+        padding: 25px;
+    }
+}
 /* --- Upload Products page end --- */

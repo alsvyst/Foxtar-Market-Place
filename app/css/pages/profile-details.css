@@ -93,13 +93,16 @@
 }
 @media (max-width: 991px) {
     .profile-details-wrapp .aside-section .sprites {
-        width: 40%;
         margin: auto;
     }
     .profile-details .mobile-aside-toggle {
         margin-left: auto;
         position: relative;
         top: -54px;
+    }
+    .profile-details-wrapp .mobile-aside button{
+        -webkit-box-shadow: none;
+                box-shadow: none;
     }
 }
 @media (max-width: 767px) {
@@ -117,11 +120,15 @@
     .profile-details-wrapp .aside-section .sprites {
         width: 50%;
     }
+    .show-aside .profile-details .mobile-aside-toggle {
+        display: block;
+        position: fixed !important;
+        top: 45px !important;
+        right: 36px;
+        z-index: 1000;
+    }
 }
 @media (max-width: 576px) {
-    .profile-details-wrapp .aside-section .sprites {
-        width: 70%;
-    }
     .profile-details .mobile-aside-toggle {
         top: -25px;
     }

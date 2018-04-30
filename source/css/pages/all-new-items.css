@@ -104,9 +104,8 @@ body.overflow {
     }
 
     .mobile-aside.right {
-        left: auto;
         right: 30px;
-        transform: translateX(110%);
+        transform: translateX(150%);
     }
 
     .overlay {
@@ -140,7 +139,7 @@ body.overflow {
         z-index: 1000;
     }
     .show-aside .sort-controls .mobile-aside-toggle i {
-         font-size: 20px;
+        font-size: 20px;
         color: #263238;
      }
 }
