@@ -104,8 +104,9 @@ body.overflow {
     }
 
     .mobile-aside.right {
-        right: 30px;
         transform: translateX(150%);
+        left: auto;
+        right: 0;
     }
 
     .overlay {
