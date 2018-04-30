@@ -7,8 +7,10 @@
     margin-top: 42px;
 }
 
-.upload-product-wrapp .btn.btn-lg {
-    padding: 17px 38px;
+@media (max-width: 767px) {
+    .upload-product-wrapp .btn-lg.btn-green {
+        width: 100%;
+    }
 }
 @media (max-width: 576px) {
     .upload-product-wrapp .content-wrapper .content-wrapper-body {
