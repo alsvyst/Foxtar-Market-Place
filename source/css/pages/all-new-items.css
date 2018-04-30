@@ -86,7 +86,6 @@ body.overflow {
 @media (max-width: 991px) {
     .mobile-aside-toggle {
         display: flex;
-        z-index: 1000;
     }
 
     .mobile-aside {
@@ -133,6 +132,9 @@ body.overflow {
 }
 
 @media (max-width: 767px) {
+    .mobile-aside-toggle {
+        z-index: 1000;
+    }
     .show-aside .sort-controls .mobile-aside-toggle {
         position: fixed !important;
         top: 40px !important;

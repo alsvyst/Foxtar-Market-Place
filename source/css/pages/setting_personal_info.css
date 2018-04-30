@@ -25,7 +25,11 @@
         top: 86px;
     }
 }
-
+@media (max-width: 767px) {
+    .setting-personal-info .btn-lg.btn-green {
+        width: 100%;
+    }
+}
 @media (max-width: 575px) {
     .setting-personal-info .mobile-aside-toggle {
         top: -25px;
